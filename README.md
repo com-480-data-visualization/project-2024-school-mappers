@@ -38,7 +38,41 @@ The dataset is massive, and countains a lot of indicators.However, upon opening 
 
 Preliminarily, we defined "sufficient data points" as having at least 18 years availlable for the 5 selected countries (USA, Mexico, Japan, India, and Switzerland). This brought the number of indicators down to 760. Then, we noticed many indicators could be grouped (i.e. population by age and genre were different indicators but could be considered together). As such, we reduced those indicators to 30 "groups".
 
-For the purpose 
+For the purpose of exploratory analysis, we selected 3 of those groups and explored their statistics :
+- SE.ENR : Gender parity index in Gross enrolment raito
+- SE.SCH : School life expectancy
+- UIS.TE_100000 : Enrolment in tertiary education per 100'000 people
+
+**(SE.ENR) Gender parity index**
+
+There are 4 indicators in this group, the gender parity index for primary and secondary education, for primary education only, for secondary education only and for tertiary education.
+
+| Indicator Code    | Indicator Name                                                          |
+|:------------------|:------------------------------------------------------------------------|
+| SE.ENR.PRSC.FM.ZS | Gross enrolment ratio, primary and secondary, gender parity index (GPI) |
+| SE.ENR.PRIM.FM.ZS | Gross enrolment ratio, primary, gender parity index (GPI)               |
+| SE.ENR.SECO.FM.ZS | Gross enrolment ratio, secondary, gender parity index (GPI)             |
+| SE.ENR.TERT.FM.ZS | Gross enrolment ratio, tertiary, gender parity index (GPI)              |
+
+![Histograms](SEENR_histograms.png)
+As we can see in the histograms, the distribution is centered around 1 for primary education but mainly flat for tertiary education. We also notice India and the United States standing out, India having a reduced ratio while the United States has a distribution above the other countries for tertiary education.
+
+The next graphic represents the number of countries (in the five countries selected) for which an indicator has data on a given year. As we can see, there are no data beyond 2016 and low availlability before 2000. 
+![Matrix of data availlability per year and indicator](SEENR_yearmatrix.png).
+
+Represented over a time scale, we notice that there are sufficient data points to give a figure :
+
+
+| Indicator Code   | Indicator Name                                                  |
+|:-----------------|:----------------------------------------------------------------|
+| SE.SCH.LIFE      | School life expectancy, primary to tertiary, both sexes (years) |
+| SE.SCH.LIFE.FE   | School life expectancy, primary to tertiary, female (years)     |
+| SE.SCH.LIFE.MA   | School life expectancy, primary to tertiary, male (years)       |
+| Indicator Code     | Indicator Name                                                      |
+|:-------------------|:--------------------------------------------------------------------|
+| UIS.TE_100000.56   | Enrolment in tertiary education per 100,000 inhabitants, both sexes |
+| UIS.TE_100000.56.F | Enrolment in tertiary education per 100,000 inhabitants, female     |
+| UIS.TE_100000.56.M | Enrolment in tertiary education per 100,000 inhabitants, male       |
 
 
 
