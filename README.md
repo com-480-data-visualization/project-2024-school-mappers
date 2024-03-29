@@ -89,13 +89,23 @@ Indeed, we notice here clearly the disparities and the data that starts later fo
 
 #### (UIS.TE_100000) Enrolment in tertiary education
 
+For this group, there are 3 different indicators, again around the genres :
+
 | Indicator Code     | Indicator Name                                                      |
 |:-------------------|:--------------------------------------------------------------------|
 | UIS.TE_100000.56   | Enrolment in tertiary education per 100,000 inhabitants, both sexes |
 | UIS.TE_100000.56.F | Enrolment in tertiary education per 100,000 inhabitants, female     |
 | UIS.TE_100000.56.M | Enrolment in tertiary education per 100,000 inhabitants, male       |
 
+![histogram](UISTE_100000_histograms.png)
 
+The histograms show a big differnece between India (low values), the United States (high values) and the other three countries.
+
+![year matrix tertiary education](UISTE_100000_yearmatrix.png)
+Data is more complete than school life expectancy, but still has the same gaps for some countries.
+
+![evolution over time](UISTE_100000_indicators.png)
+Over time, data seems sufficiently complete, but we observe around 1995 a big step in Japan enrolment, which could be investigated further.
 
 ### Related work
 
