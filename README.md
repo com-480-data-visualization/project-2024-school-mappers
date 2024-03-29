@@ -43,7 +43,7 @@ For the purpose of exploratory analysis, we selected 3 of those groups and explo
 - SE.SCH : School life expectancy
 - UIS.TE_100000 : Enrolment in tertiary education per 100'000 people
 
-**(SE.ENR) Gender parity index**
+#### (SE.ENR) Gender parity index
 
 There are 4 indicators in this group, the gender parity index for primary and secondary education, for primary education only, for secondary education only and for tertiary education.
 
@@ -60,14 +60,35 @@ As we can see in the histograms, the distribution is centered around 1 for prima
 The next graphic represents the number of countries (in the five countries selected) for which an indicator has data on a given year. As we can see, there are no data beyond 2016 and low availlability before 2000. 
 ![Matrix of data availlability per year and indicator](SEENR_yearmatrix.png).
 
-Represented over a time scale, we notice that there are sufficient data points to give a figure :
+Represented over a time scale, we notice that there are sufficient data points to give an idea of the evolution of the gender parity index in the 5 countries :
+![Evolution over time of the indicators value, by country](SEENR_indicators.png)
 
+---
+#### (SE.SCH) School life expectancy
+
+In this group, we have 3 different indicators : the school life expectancy for the whole population, for males only or for females only.
 
 | Indicator Code   | Indicator Name                                                  |
 |:-----------------|:----------------------------------------------------------------|
 | SE.SCH.LIFE      | School life expectancy, primary to tertiary, both sexes (years) |
 | SE.SCH.LIFE.FE   | School life expectancy, primary to tertiary, female (years)     |
 | SE.SCH.LIFE.MA   | School life expectancy, primary to tertiary, male (years)       |
+
+![histograms](SESCH_histograms.png)
+
+The histograms shows values between 4 and 17, but with already disparities between countries. This will probably prove an interesting indicator, going further.
+
+![year matric sesch](SESCH_yearmatrix.png)
+
+For this group, we start to have good data on all indicators starting around 1980 again, but the data really becomes complete year-on-year in the years 2000.
+Again, data stops around 2015.
+
+![evolution over time](SESCH_indicators.png)
+
+Indeed, we notice here clearly the disparities and the data that starts later for some countries, or has some big gaps (e.g. mexico in the indicator for females/males)
+
+#### (UIS.TE_100000) Enrolment in tertiary education
+
 | Indicator Code     | Indicator Name                                                      |
 |:-------------------|:--------------------------------------------------------------------|
 | UIS.TE_100000.56   | Enrolment in tertiary education per 100,000 inhabitants, both sexes |
