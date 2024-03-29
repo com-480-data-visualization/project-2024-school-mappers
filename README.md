@@ -38,8 +38,7 @@ The dataset is massive, and countains a lot of indicators.However, upon opening 
 
 Preliminarily, we defined "sufficient data points" as having at least 18 years availlable for the 5 selected countries (USA, Mexico, Japan, India, and Switzerland). This brought the number of indicators down to 760. Then, we noticed many indicators could be grouped (i.e. population by age and genre were different indicators but could be considered together). As such, we reduced those indicators to 30 "groups".
 
-Here is the data we have for 
-
+For the purpose 
 
 
 
