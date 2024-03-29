@@ -27,11 +27,11 @@ Our visualization project aims to examine the diversity of schools in selected c
 
 This part contains results both from the World Bank [database exploratory tool](https://data.worldbank.org/topic/education?year=2021) and from the manual EDA that can be found in the notebook Milestone1.ipynb. 
 
-![](data/img1.png)
+![](img1.png)
 
-![](data/img2.png)
+![](img2.png)
 
-![](data/img3.png)
+![](img3.png)
 
 ### Related work
 
