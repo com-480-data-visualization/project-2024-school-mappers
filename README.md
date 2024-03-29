@@ -34,7 +34,13 @@ The World Bank proposes a very powerfull [database exploration tool](https://dat
 
 ![](img3.png)
 
-The dataset is massive, and countains a lot of indicators. However, upon opening of it, we noticed a lot of missing values. We noticed many indicators had low number of values. As such, we started to look for indicators with sufficient data points (process and code in file `milestone1.ipynb`)
+The dataset is massive, and countains a lot of indicators.However, upon opening of it, we noticed a lot of missing values. We noticed many indicators had low number of values. As such, we started to look for indicators with sufficient data points (process and code in file `milestone1.ipynb`).
+
+Preliminarily, we defined "sufficient data points" as having at least 18 years availlable for the 5 selected countries (USA, Mexico, Japan, India, and Switzerland). This brought the number of indicators down to 760. Then, we noticed many indicators could be grouped (i.e. population by age and genre were different indicators but could be considered together). As such, we reduced those indicators to 30 "groups".
+
+Here is the data we have for 
+
+
 
 
 ### Related work
