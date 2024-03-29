@@ -25,6 +25,7 @@ Our visualization project aims to examine the diversity of schools in selected c
 
 ### Exploratory Data Analysis
 
+The World Bank proposes a very powerfull database exploration tool to explore the database.
 This part contains results both from the World Bank [database exploratory tool](https://data.worldbank.org/topic/education?year=2021) and from the manual EDA that can be found in the notebook Milestone1.ipynb. 
 
 ![](img1.png)
