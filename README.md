@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Francisco Morales| 353614 |
+| Francisco Morales| 353614|
 | Julien Ars | 314545 |
 | Blanche Duron | 282248 |
 
