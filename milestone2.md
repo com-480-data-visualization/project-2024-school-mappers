@@ -33,3 +33,4 @@ From this, the user could for example click on a numeric value to compare this "
 
 The user can also click on an image of a facility to compare the facilities of different schools :
 ![Canteens of different schools](Step5.png)
+
