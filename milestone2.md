@@ -1,5 +1,11 @@
 # Milestone 2
 
+| Student's name    | SCIPER |
+| ----------------- | ------ |
+| Francisco Morales | 353614 |
+| Julien Ars        | 314545 |
+| Blanche Duron     | 282248 |
+
 > Prototype : [Link](https://bduron99.github.io/)
 
 > **Project goal :** 
