@@ -6,7 +6,7 @@
 | Julien Ars | 314545 |
 | Blanche Duron | 282248 |
 
-[Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
+[Milestone 1](#milestone-1-29th-march-5pm) • [Milestone 2](#milestone-2-26th-april-5pm) • [Milestone 3](#milestone-3-26th-april-5pm)
 
 ## Milestone 1 (29th March, 5pm)
 
