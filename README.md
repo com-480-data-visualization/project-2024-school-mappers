@@ -128,7 +128,7 @@ Some of us worked on the same project for the ADA course. We did an analysis on 
 ## Milestone 2 (26th April, 5pm)
 
 **10% of the final grade**
-- The project goal description can be found [here](). 
+- The project goal description can be found [here](milestone_2.md). 
 - The project prototype can be accessed [here](https://bduron99.github.io/).
 
 
