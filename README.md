@@ -28,11 +28,11 @@ Our visualization project aims to examine the diversity of schools in selected c
 The World Bank proposes a very powerfull [database exploration tool](https://data.worldbank.org/topic/education?year=2021) to explore the dataset. Initial exploration can therefore be done directly online. As seen in the images below, we already notice disparities in the data availlable between the countries, with sometimes big gaps in the data availlable :
 
 
-![](img1.png)
+![](img/img1.png)
 
-![](img2.png)
+![](img/img2.png)
 
-![](img3.png)
+![](img/img3.png)
 
 The dataset is massive, and countains a lot of indicators.However, upon opening of it, we noticed a lot of missing values. We noticed many indicators had low number of values. As such, we started to look for indicators with sufficient data points (process and code in file `milestone1.ipynb`).
 
@@ -54,14 +54,14 @@ There are 4 indicators in this group, the gender parity index for primary and se
 | SE.ENR.SECO.FM.ZS | Gross enrolment ratio, secondary, gender parity index (GPI)             |
 | SE.ENR.TERT.FM.ZS | Gross enrolment ratio, tertiary, gender parity index (GPI)              |
 
-![Histograms](SEENR_histograms.png)
+![Histograms](img/SEENR_histograms.png)
 As we can see in the histograms, the distribution is centered around 1 for primary education but mainly flat for tertiary education. We also notice India and the United States standing out, India having a reduced ratio while the United States has a distribution above the other countries for tertiary education.
 
 The next graphic represents the number of countries (in the five countries selected) for which an indicator has data on a given year. As we can see, there are no data beyond 2016 and low availlability before 2000. 
-![Matrix of data availlability per year and indicator](SEENR_yearmatrix.png).
+![Matrix of data availlability per year and indicator](img/SEENR_yearmatrix.png).
 
 Represented over a time scale, we notice that there are sufficient data points to give an idea of the evolution of the gender parity index in the 5 countries :
-![Evolution over time of the indicators value, by country](SEENR_indicators.png)
+![Evolution over time of the indicators value, by country](img/SEENR_indicators.png)
 
 ---
 #### (SE.SCH) School life expectancy
@@ -74,16 +74,16 @@ In this group, we have 3 different indicators : the school life expectancy for t
 | SE.SCH.LIFE.FE   | School life expectancy, primary to tertiary, female (years)     |
 | SE.SCH.LIFE.MA   | School life expectancy, primary to tertiary, male (years)       |
 
-![histograms](SESCH_histograms.png)
+![histograms](img/SESCH_histograms.png)
 
 The histograms shows values between 4 and 17, but with already disparities between countries. This will probably prove an interesting indicator, going further.
 
-![year matric sesch](SESCH_yearmatrix.png)
+![year matric sesch](img/SESCH_yearmatrix.png)
 
 For this group, we start to have good data on all indicators starting around 1980 again, but the data really becomes complete year-on-year in the years 2000.
 Again, data stops around 2015.
 
-![evolution over time](SESCH_indicators.png)
+![evolution over time](img/SESCH_indicators.png)
 
 Indeed, we notice here clearly the disparities and the data that starts later for some countries, or has some big gaps (e.g. mexico in the indicator for females/males)
 
@@ -97,14 +97,14 @@ For this group, there are 3 different indicators, again around the genres :
 | UIS.TE_100000.56.F | Enrolment in tertiary education per 100,000 inhabitants, female     |
 | UIS.TE_100000.56.M | Enrolment in tertiary education per 100,000 inhabitants, male       |
 
-![histogram](UISTE_100000_histograms.png)
+![histogram](img/UISTE_100000_histograms.png)
 
 The histograms show a big differnece between India (low values), the United States (high values) and the other three countries.
 
-![year matrix tertiary education](UISTE_100000_yearmatrix.png)
+![year matrix tertiary education](img/UISTE_100000_yearmatrix.png)
 Data is more complete than school life expectancy, but still has the same gaps for some countries.
 
-![evolution over time](UISTE_100000_indicators.png)
+![evolution over time](img/UISTE_100000_indicators.png)
 Over time, data seems sufficiently complete, but we observe around 1995 a big step in Japan enrolment, which could be investigated further.
 
 ### Related work
@@ -128,7 +128,7 @@ Some of us worked on the same project for the ADA course. We did an analysis on 
 ## Milestone 2 (26th April, 5pm)
 
 **10% of the final grade**
-- The project goal description can be found [here](milestone2.md). 
+- The project goal description can be found [here](milestone2.md), or in pdf [here](milestone2.pdf). 
 - The project prototype can be accessed [here](https://bduron99.github.io/).
 
 

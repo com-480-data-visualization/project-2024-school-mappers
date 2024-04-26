@@ -24,22 +24,22 @@ In order to highlight the disparities between different schools, we wanted a vis
 
 The project will allow users to create their own infinite story, navigating between school systems (i.e. countries) or individual schools (+/- 3 per countries) by selecting indicators (either "macro", so by country, or "micro", so by school). The previous steps in the story will be kept, allowing the user to visualise its whole travel.
 
-![Schema of the possible evolution](schema.svg)
+![Schema of the possible evolution](img/schema.svg)
 
 On opening, the website will display 5 countries, their map and some generic information about the countries:
-![Start screen](Start.svg)
+![Start screen](img/Start.svg)
 
 Once the user has selected a country, it displays a card with more information about the selected country, and on the map of the country, the different schools for which we have information:
-![Has selected a country](Step1.svg)
+![Has selected a country](img/Step1.svg)
 
 The user can then either select an indicator (for example the enrolment figures) and compare the results for this indicator between the countries, or click on a school  and see the profile of this school:
-![School screen](Step2.png)
+![School screen](img/Step2.png)
 
 From this, the user could for example click on a numeric value to compare this "micro" indicator with the corresponding values for other schools, then click on the value of a school to see the page of a new school:
-![micro indicator](Step4.png)
+![micro indicator](img/Step4.png)
 
 The user can also click on an image of a facility to compare the facilities of different schools :
-![Canteens of different schools](Step5.png)
+![Canteens of different schools](img/Step5.png)
 
 ## The implementation
 
