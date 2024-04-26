@@ -1,6 +1,6 @@
 # Milestone 2
 
-> Prototype :
+> Prototype : [Link](https://bduron99.github.io/)
 
 > **Project goal :** 
 >
@@ -34,3 +34,16 @@ From this, the user could for example click on a numeric value to compare this "
 The user can also click on an image of a facility to compare the facilities of different schools :
 ![Canteens of different schools](Step5.png)
 
+## The implementation
+
+In order to implement the visualisation, the project can be broken down into several independent blocs :
+1. General website behaviour, data management
+2. Country blocs and associated visualisation
+3. School blocs and associated visualisation
+4. "Macro" visualisations (indicators over countries)
+5. "Micro" visualisations (indicators over schools)
+6. Picture visualisation
+
+Additionnal features that could be added if time permit have also been identified :
+- Keeping track of which schools/countries have been visited to highlight them
+- Allow additional filtering in the data (e.g. by genre or by age) if we have the data for it
