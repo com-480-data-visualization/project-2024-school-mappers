@@ -1,0 +1,962 @@
+[
+    {
+        "name": "CHE",
+        "pisaScore": {
+            "Total": {
+                "value": "521.2506",
+                "year": "2015",
+                "description": "Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "PISA repartition": {
+            "0": {
+                "value": "4.92091627551566",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "1": {
+                "value": "10.8591707351427",
+                "year": "2015",
+                "description": "PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "2": {
+                "value": "18.0976672151174",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "3": {
+                "value": "23.6153540347165",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "4": {
+                "value": "23.2602045468261",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "5": {
+                "value": "13.9517274294065",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "6": {
+                "value": "5.29495976327518",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "GDP_Capita": {
+            "Total": {
+                "value": "63741.4525065597",
+                "year": "2016",
+                "description": "GDP per capita, PPP (current international $)",
+                "source": "World Bank, International Comparison Program database."
+            }
+        },
+        "Litteracy rate": {},
+        "Population": {
+            "value": "8372098.0",
+            "year": "2016",
+            "description": "Population, total",
+            "source": "(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+        },
+        "HDI Rank": {
+            "value": "1.0",
+            "year": "2022",
+            "description": "HDI rank over 193 countries",
+            "source": "Human Development Report (United Nations)"
+        },
+        "HDI": {
+            "value": "0.967",
+            "year": "2022",
+            "description": "Human Development Index (value)",
+            "source": "Human Development Report (United Nations)"
+        },
+        "Income": {
+            "Poorest 40 percent": {
+                "value": "19.9",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            "Richest 10 percent": {
+                "value": "25.8",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            " Richest 1 percent": {
+                "value": "9.86",
+                "year": "2021",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+                "source": "World Bank (2023)"
+            }
+        },
+        "Gini": {
+            "value": "33.1",
+            "year": "2010-2022",
+            "description": "Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+            "source": "World Inequality Database (2022)"
+        },
+        "Enrolment": {
+            "Total_primary": {
+                "value": "77.2800979614258",
+                "year": "2015",
+                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_primary": {
+                "value": "76.1442489624023",
+                "year": "2015",
+                "description": "Net enrolment rate, pre-primary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_primary": {
+                "value": "78.3561782836914",
+                "year": "2015",
+                "description": "Net enrolment rate, pre-primary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total_secondary": {
+                "value": "84.9164886474609",
+                "year": "2015",
+                "description": "Net enrolment rate, secondary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_secondary": {
+                "value": "83.8262481689453",
+                "year": "2015",
+                "description": "Net enrolment rate, secondary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_secondary": {
+                "value": "85.9521484375",
+                "year": "2015",
+                "description": "Net enrolment rate, secondary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Private School Enrolment": {},
+        "School life expectancy": {
+            "Total": {
+                "value": "16.1688899993896",
+                "year": "2015",
+                "description": "School life expectancy, primary to tertiary, both sexes (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female": {
+                "value": "16.1241798400879",
+                "year": "2015",
+                "description": "School life expectancy, primary to tertiary, female (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male": {
+                "value": "16.2133007049561",
+                "year": "2015",
+                "description": "School life expectancy, primary to tertiary, male (years)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Gov. Expenditure on education": {
+            "Primary": {
+                "value": "25.5142402648926",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Secondary": {
+                "value": "25.5142402648926",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Tertiary": {
+                "value": "25.5142402648926",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total": {
+                "value": "5.09607982635498",
+                "year": "2014",
+                "description": "Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Dropout": {
+            "value": "1.78322005271912",
+            "year": "2013",
+            "description": "Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+            "source": "UNESCO Institute for Statistics"
+        }
+    },
+    {
+        "name": "JPN",
+        "pisaScore": {
+            "Total": {
+                "value": "532.4399",
+                "year": "2015",
+                "description": "Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "PISA repartition": {
+            "0": {
+                "value": "2.9395713480778",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "1": {
+                "value": "7.75258343094927",
+                "year": "2015",
+                "description": "PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "2": {
+                "value": "17.2260365216827",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "3": {
+                "value": "25.8192158043242",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "4": {
+                "value": "25.9174919058719",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "5": {
+                "value": "15.0485202934324",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "6": {
+                "value": "5.29658069566177",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "GDP_Capita": {
+            "Total": {
+                "value": "41476.36029782",
+                "year": "2016",
+                "description": "GDP per capita, PPP (current international $)",
+                "source": "World Bank, International Comparison Program database."
+            }
+        },
+        "Litteracy rate": {},
+        "Population": {
+            "value": "126994511.0",
+            "year": "2016",
+            "description": "Population, total",
+            "source": "(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+        },
+        "HDI Rank": {
+            "value": "24.0",
+            "year": "2022",
+            "description": "HDI rank over 193 countries",
+            "source": "Human Development Report (United Nations)"
+        },
+        "HDI": {
+            "value": "0.92",
+            "year": "2022",
+            "description": "Human Development Index (value)",
+            "source": "Human Development Report (United Nations)"
+        },
+        "Income": {
+            "Poorest 40 percent": {
+                "value": "20.5",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            "Richest 10 percent": {
+                "value": "26.4",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            " Richest 1 percent": {
+                "value": "12.86",
+                "year": "2021",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+                "source": "World Bank (2023)"
+            }
+        },
+        "Gini": {
+            "value": "32.9",
+            "year": "2010-2022",
+            "description": "Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+            "source": "World Inequality Database (2022)"
+        },
+        "Enrolment": {
+            "Total_primary": {
+                "value": "89.7667922973633",
+                "year": "2013",
+                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_primary": {
+                "value": "84.2306823730469",
+                "year": "1999",
+                "description": "Net enrolment rate, pre-primary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_primary": {
+                "value": "82.6370010375977",
+                "year": "1999",
+                "description": "Net enrolment rate, pre-primary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total_secondary": {
+                "value": "99.0426712036133",
+                "year": "2014",
+                "description": "Net enrolment rate, secondary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_secondary": {
+                "value": "99.4387588500977",
+                "year": "2014",
+                "description": "Net enrolment rate, secondary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_secondary": {
+                "value": "98.665428161621",
+                "year": "2014",
+                "description": "Net enrolment rate, secondary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Private School Enrolment": {},
+        "School life expectancy": {
+            "Total": {
+                "value": "15.3587102890015",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, both sexes (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female": {
+                "value": "15.2468595504761",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, female (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male": {
+                "value": "15.4655504226685",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, male (years)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Gov. Expenditure on education": {
+            "Primary": {
+                "value": "22.5268001556396",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Secondary": {
+                "value": "22.5268001556396",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Tertiary": {
+                "value": "22.5268001556396",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total": {
+                "value": "3.59184002876282",
+                "year": "2014",
+                "description": "Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Dropout": {
+            "value": "0.0797699987888336",
+            "year": "1994",
+            "description": "Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+            "source": "UNESCO Institute for Statistics"
+        }
+    },
+    {
+        "name": "MEX",
+        "pisaScore": {
+            "Total": {
+                "value": "408.0235",
+                "year": "2015",
+                "description": "Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "PISA repartition": {
+            "0": {
+                "value": "25.5335112085432",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "1": {
+                "value": "31.1078644037835",
+                "year": "2015",
+                "description": "PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "2": {
+                "value": "26.9414635647399",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "3": {
+                "value": "12.8878550152634",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "4": {
+                "value": "3.19831692220138",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "5": {
+                "value": "0.314829517757425",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "6": {
+                "value": "0.0161593677111274",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "GDP_Capita": {
+            "Total": {
+                "value": "17877.3578445939",
+                "year": "2016",
+                "description": "GDP per capita, PPP (current international $)",
+                "source": "World Bank, International Comparison Program database."
+            }
+        },
+        "Litteracy rate": {
+            "Female": {
+                "value": "93.4855",
+                "year": "2015",
+                "description": "Adult literacy rate, population 15+ years, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male": {
+                "value": "95.54933",
+                "year": "2015",
+                "description": "Adult literacy rate, population 15+ years, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total": {
+                "value": "94.47228",
+                "year": "2015",
+                "description": "Adult literacy rate, population 15+ years, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Population": {
+            "value": "127540423.0",
+            "year": "2016",
+            "description": "Population, total",
+            "source": "(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+        },
+        "HDI Rank": {
+            "value": "77.0",
+            "year": "2022",
+            "description": "HDI rank over 193 countries",
+            "source": "Human Development Report (United Nations)"
+        },
+        "HDI": {
+            "value": "0.781",
+            "year": "2022",
+            "description": "Human Development Index (value)",
+            "source": "Human Development Report (United Nations)"
+        },
+        "Income": {
+            "Poorest 40 percent": {
+                "value": "14.3",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            "Richest 10 percent": {
+                "value": "35.5",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            " Richest 1 percent": {
+                "value": "26.81",
+                "year": "2021",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+                "source": "World Bank (2023)"
+            }
+        },
+        "Gini": {
+            "value": "45.4",
+            "year": "2010-2022",
+            "description": "Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+            "source": "World Inequality Database (2022)"
+        },
+        "Enrolment": {
+            "Total_primary": {
+                "value": "68.7245635986328",
+                "year": "2014",
+                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_primary": {
+                "value": "69.5666809082031",
+                "year": "2014",
+                "description": "Net enrolment rate, pre-primary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_primary": {
+                "value": "67.9204330444335",
+                "year": "2014",
+                "description": "Net enrolment rate, pre-primary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total_secondary": {
+                "value": "67.4097366333008",
+                "year": "2012",
+                "description": "Net enrolment rate, secondary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_secondary": {
+                "value": "68.7788314819335",
+                "year": "2012",
+                "description": "Net enrolment rate, secondary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_secondary": {
+                "value": "66.084373474121",
+                "year": "2012",
+                "description": "Net enrolment rate, secondary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Private School Enrolment": {},
+        "School life expectancy": {
+            "Total": {
+                "value": "13.299090385437",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, both sexes (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female": {
+                "value": "13.466290473938",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, female (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male": {
+                "value": "13.1326398849487",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, male (years)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Gov. Expenditure on education": {
+            "Primary": {
+                "value": "14.9120502471924",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Secondary": {
+                "value": "14.9120502471924",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Tertiary": {
+                "value": "14.9120502471924",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total": {
+                "value": "5.31347990036011",
+                "year": "2014",
+                "description": "Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Dropout": {
+            "value": "10.2019395828247",
+            "year": "2013",
+            "description": "Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+            "source": "UNESCO Institute for Statistics"
+        }
+    },
+    {
+        "name": "USA",
+        "pisaScore": {
+            "Total": {
+                "value": "469.6285",
+                "year": "2015",
+                "description": "Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "PISA repartition": {
+            "0": {
+                "value": "10.5841181560014",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "1": {
+                "value": "18.7947054294677",
+                "year": "2015",
+                "description": "PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "2": {
+                "value": "26.1668124604649",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "3": {
+                "value": "23.8052539789656",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "4": {
+                "value": "14.7432882763253",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "5": {
+                "value": "5.0148971286283",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            },
+            "6": {
+                "value": "0.890924570146699",
+                "year": "2015",
+                "description": "Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http://www.oecd.org/pisa/",
+                "source": "OECD Programme for International Student Assessment (PISA)"
+            }
+        },
+        "GDP_Capita": {
+            "Total": {
+                "value": "57638.1590879883",
+                "year": "2016",
+                "description": "GDP per capita, PPP (current international $)",
+                "source": "World Bank, International Comparison Program database."
+            }
+        },
+        "Litteracy rate": {},
+        "Population": {
+            "value": "323127513.0",
+            "year": "2016",
+            "description": "Population, total",
+            "source": "(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+        },
+        "HDI Rank": {
+            "value": "20.0",
+            "year": "2022",
+            "description": "HDI rank over 193 countries",
+            "source": "Human Development Report (United Nations)"
+        },
+        "HDI": {
+            "value": "0.927",
+            "year": "2022",
+            "description": "Human Development Index (value)",
+            "source": "Human Development Report (United Nations)"
+        },
+        "Income": {
+            "Poorest 40 percent": {
+                "value": "16.6",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            "Richest 10 percent": {
+                "value": "30.1",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            " Richest 1 percent": {
+                "value": "19.03",
+                "year": "2021",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+                "source": "World Bank (2023)"
+            }
+        },
+        "Gini": {
+            "value": "39.8",
+            "year": "2010-2022",
+            "description": "Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+            "source": "World Inequality Database (2022)"
+        },
+        "Enrolment": {
+            "Total_primary": {
+                "value": "63.570068359375",
+                "year": "2015",
+                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_primary": {
+                "value": "63.9101295471191",
+                "year": "2015",
+                "description": "Net enrolment rate, pre-primary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_primary": {
+                "value": "63.2441787719727",
+                "year": "2015",
+                "description": "Net enrolment rate, pre-primary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total_secondary": {
+                "value": "90.462287902832",
+                "year": "2014",
+                "description": "Net enrolment rate, secondary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_secondary": {
+                "value": "91.9820327758789",
+                "year": "2014",
+                "description": "Net enrolment rate, secondary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_secondary": {
+                "value": "89.0200576782227",
+                "year": "2014",
+                "description": "Net enrolment rate, secondary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Private School Enrolment": {},
+        "School life expectancy": {
+            "Total": {
+                "value": "16.5381507873535",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, both sexes (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female": {
+                "value": "17.3453102111816",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, female (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male": {
+                "value": "15.7578496932983",
+                "year": "2014",
+                "description": "School life expectancy, primary to tertiary, male (years)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Gov. Expenditure on education": {
+            "Primary": {
+                "value": "19.9227294921875",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Secondary": {
+                "value": "19.9227294921875",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Tertiary": {
+                "value": "19.9227294921875",
+                "year": "2014",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total": {
+                "value": "5.38078022003174",
+                "year": "2014",
+                "description": "Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Dropout": null
+    },
+    {
+        "name": "IND",
+        "pisaScore": {},
+        "PISA repartition": {},
+        "GDP_Capita": {
+            "Total": {
+                "value": "6583.37204969932",
+                "year": "2016",
+                "description": "GDP per capita, PPP (current international $)",
+                "source": "World Bank, International Comparison Program database."
+            }
+        },
+        "Litteracy rate": {
+            "Female": {
+                "value": "59.27732",
+                "year": "2011",
+                "description": "Adult literacy rate, population 15+ years, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male": {
+                "value": "78.87723",
+                "year": "2011",
+                "description": "Adult literacy rate, population 15+ years, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total": {
+                "value": "69.30256",
+                "year": "2011",
+                "description": "Adult literacy rate, population 15+ years, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Population": {
+            "value": "1324171354.0",
+            "year": "2016",
+            "description": "Population, total",
+            "source": "(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+        },
+        "HDI Rank": {
+            "value": "134.0",
+            "year": "2022",
+            "description": "HDI rank over 193 countries",
+            "source": "Human Development Report (United Nations)"
+        },
+        "HDI": {
+            "value": "0.644",
+            "year": "2022",
+            "description": "Human Development Index (value)",
+            "source": "Human Development Report (United Nations)"
+        },
+        "Income": {
+            "Poorest 40 percent": {
+                "value": "20",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            "Richest 10 percent": {
+                "value": "27.8",
+                "year": "2010-2022",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+                "source": "World Bank (2023)"
+            },
+            " Richest 1 percent": {
+                "value": "21.73",
+                "year": "2021",
+                "description": "Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+                "source": "World Bank (2023)"
+            }
+        },
+        "Gini": {
+            "value": "34.2",
+            "year": "2010-2022",
+            "description": "Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+            "source": "World Inequality Database (2022)"
+        },
+        "Enrolment": {
+            "Total_secondary": {
+                "value": "61.755241394043",
+                "year": "2013",
+                "description": "Net enrolment rate, secondary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_secondary": {
+                "value": "62.177921295166",
+                "year": "2013",
+                "description": "Net enrolment rate, secondary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_secondary": {
+                "value": "61.3751983642578",
+                "year": "2013",
+                "description": "Net enrolment rate, secondary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Private School Enrolment": {},
+        "School life expectancy": {
+            "Total": {
+                "value": "11.9615297317505",
+                "year": "2015",
+                "description": "School life expectancy, primary to tertiary, both sexes (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female": {
+                "value": "12.3209400177002",
+                "year": "2015",
+                "description": "School life expectancy, primary to tertiary, female (years)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male": {
+                "value": "11.6399097442627",
+                "year": "2015",
+                "description": "School life expectancy, primary to tertiary, male (years)",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Gov. Expenditure on education": {
+            "Primary": {
+                "value": "9.76755046844482",
+                "year": "2013",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Secondary": {
+                "value": "9.76755046844482",
+                "year": "2013",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Tertiary": {
+                "value": "9.76755046844482",
+                "year": "2013",
+                "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Total": {
+                "value": "3.84236001968384",
+                "year": "2013",
+                "description": "Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
+                "source": "UNESCO Institute for Statistics"
+            }
+        },
+        "Dropout": {
+            "value": "2.98722004890442",
+            "year": "2010",
+            "description": "Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+            "source": "UNESCO Institute for Statistics"
+        }
+    }
+]
