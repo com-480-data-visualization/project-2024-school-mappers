@@ -27,7 +27,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
     {
       name: "School A",
       city: "City A",
-      country: "CHE",
+      country: "Switzerland",
       value: 100,
       year: 2023,
       description: "A school description",
@@ -46,7 +46,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
     {
       name: "School B",
       city: "City B",
-      country: "JPN",
+      country: "Japan",
       value: 200,
       year: 2023,
       description: "A school description",

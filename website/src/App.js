@@ -1,60 +1,3 @@
-/**
-import Header from "./components/Header";
-import Description from "./components/Description";
-import CountryCards from "./components/CountryCards";
-import DetailedCountryInfo from "./components/DetailedCountryInfo";
-import DetailedSchoolInfo from "./components/DetailedSchoolInfo";
-import React, { useState, useEffect } from "react";
-import "./App.css";
-
-function App() {
-  const [countriesData, setCountriesData] = useState([]);
-  const [selectedCountry, setSelectedCountry] = useState(null);
-  const [selectedSchool, setSelectedSchool] = useState(null);
-  const [cardList, setCardList] = useState([]);
-
-
-  useEffect(() => {
-    fetch("/data.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setCountriesData(data);
-        console.log("Fetching the data worked");
-      })
-      .catch((error) => console.error("Error fetching the JSON file:", error));
-  }, []);
-
-  const handleSelectCountry = (country) => {
-    setSelectedCountry(country);
-    setSelectedSchool(null);
-  };
-  const handleSelectSchool = (school) => {
-    setSelectedSchool(school);
-  };
-
-  return (
-    <div className="App">
-      <Header />
-      <Description />
-      <CountryCards
-        countries={countriesData}
-        onSelectCountry={handleSelectCountry}
-      />
-      {selectedCountry && (
-        <DetailedCountryInfo
-          country={countriesData.find(
-            (country) => country.name === selectedCountry
-          )}
-          onSelectSchool={handleSelectSchool}
-        />
-      )}
-      {selectedSchool && <DetailedSchoolInfo school={selectedSchool} />}
-    </div>
-  );
-}
-
-export default App;
-*/
 import Header from "./components/Header";
 import Description from "./components/Description";
 import CountryCards from "./components/CountryCards";
@@ -70,7 +13,7 @@ function App() {
   const cardRefs = useRef([]);
 
   useEffect(() => {
-      fetch(`${process.env.PUBLIC_URL}/countries.json`)
+    fetch(`${process.env.PUBLIC_URL}/countries.json`)
       .then((response) => response.json())
       .then((data) => {
         setCountriesData(data);
@@ -87,13 +30,18 @@ function App() {
     }
   }, [cardList]);
 
-  const handleSelectCountry = (country) => {
-    const countryData = countriesData.find((c) => c.name === country);
+  const handleSelectCountry = (countryName, clearList = false) => {
+    const countryData = countriesData.find((c) => c.name === countryName);
+
     if (countryData) {
-      setCardList((previousCards) => [
-        ...previousCards,
-        { type: "country", data: countryData, country },
-      ]);
+      if (clearList) {
+        setCardList([{ type: "country", data: countryData }]);
+      } else {
+        setCardList((previousCards) => [
+          ...previousCards,
+          { type: "country", data: countryData },
+        ]);
+      }
     }
   };
 
@@ -123,7 +71,7 @@ function App() {
       <Description />
       <CountryCards
         countries={countriesData}
-        onSelectCountry={handleSelectCountry}
+        onSelectCountry={(country) => handleSelectCountry(country, true)}
       />
       <div className="card-list">
         {cardList.map((card, index) => {
