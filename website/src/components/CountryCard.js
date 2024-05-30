@@ -1,5 +1,21 @@
 import React from "react";
 
+function InfoRow({title, info}){
+  let description;
+  let value;
+  if(info){
+    description = info.description;
+    value = info.valueFormatted;
+  }else{
+    description = ""
+    value = "NA"
+  }
+
+  return <p title={description}>
+    <strong>{title}:</strong> {value}
+  </p>
+}
+
 const CountryCard = ({ country, onClick }) => {
   const {
     name,
@@ -22,28 +38,13 @@ const CountryCard = ({ country, onClick }) => {
   return (
     <div className="country-card" onClick={onClick}>
       <h2>{name}</h2>
-      <p title={population?.description}>
-        <strong>Population:</strong> {population?.valueFormatted}
-      </p>
-      <p title={gdpCapita?.Total?.description}>
-        <strong>GDP/Capita:</strong> $
-        {gdpCapita?.Total?.valueFormatted}
-      </p>
-      <p title={pisaScore?.Total?.description}>
-        <strong>PISA Score:</strong> {pisaScore?.Total?.valueFormatted}
-      </p>
-      <p title={literacyRate?.description}>
-        <strong>Literacy Rate:</strong> {literacyRate?.Total?.valueFormatted}
-      </p>
-      <p title={hdiRank?.description}>
-        <strong>HDI Rank:</strong> {hdiRank?.valueFormatted}
-      </p>
-      <p title={hdi?.description}>
-        <strong>HDI:</strong> {hdi?.valueFormatted}
-      </p>
-      <p title={gini?.description}>
-        <strong>Gini index:</strong> {gini?.valueFormatted}
-      </p>
+      <InfoRow title="Population" info={population} />
+      <InfoRow title="GDP/Capita" info={gdpCapita?.Total} />
+      <InfoRow title="PISA Score" info={pisaScore?.Total} />
+      <InfoRow title="Literacy Rate" info={literacyRate?.Total} />
+      <InfoRow title="HDI Rank" info={hdiRank} />
+      <InfoRow title="HDI" info={hdi} />
+      <InfoRow title="Gini index" info={gini} />
     </div>
   );
 };
