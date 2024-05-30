@@ -70,7 +70,7 @@ function App() {
   const cardRefs = useRef([]);
 
   useEffect(() => {
-      fetch(`${process.env.PUBLIC_URL}/data.json`)
+      fetch(`${process.env.PUBLIC_URL}/countries.json`)
       .then((response) => response.json())
       .then((data) => {
         setCountriesData(data);
