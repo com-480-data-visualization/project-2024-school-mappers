@@ -22,27 +22,27 @@ const CountryCard = ({ country, onClick }) => {
   return (
     <div className="country-card" onClick={onClick}>
       <h2>{name}</h2>
-      <p>
-        <strong>Population:</strong> {population?.value?.toLocaleString()}
+      <p title={population?.description}>
+        <strong>Population:</strong> {population?.valueFormatted}
       </p>
-      <p>
+      <p title={gdpCapita?.Total?.description}>
         <strong>GDP/Capita:</strong> $
-        {gdpCapita?.Total?.value?.toLocaleString()}
+        {gdpCapita?.Total?.valueFormatted}
       </p>
-      <p>
-        <strong>PISA Score:</strong> {pisaScore?.Total?.value}
+      <p title={pisaScore?.Total?.description}>
+        <strong>PISA Score:</strong> {pisaScore?.Total?.valueFormatted}
       </p>
-      <p>
-        <strong>Literacy Rate:</strong> {literacyRate?.value?.toLocaleString()}%
+      <p title={literacyRate?.description}>
+        <strong>Literacy Rate:</strong> {literacyRate?.Total?.valueFormatted}
       </p>
-      <p>
-        <strong>HDI Rank:</strong> {hdiRank?.value}
+      <p title={hdiRank?.description}>
+        <strong>HDI Rank:</strong> {hdiRank?.valueFormatted}
       </p>
-      <p>
-        <strong>HDI:</strong> {hdi?.value}
+      <p title={hdi?.description}>
+        <strong>HDI:</strong> {hdi?.valueFormatted}
       </p>
-      <p>
-        <strong>Gini:</strong> {gini?.value}
+      <p title={gini?.description}>
+        <strong>Gini index:</strong> {gini?.valueFormatted}
       </p>
     </div>
   );
