@@ -70,7 +70,7 @@ function App() {
   const cardRefs = useRef([]);
 
   useEffect(() => {
-    fetch("/data.json")
+      fetch(`${process.env.PUBLIC_URL}/data.json`)
       .then((response) => response.json())
       .then((data) => {
         setCountriesData(data);
@@ -87,17 +87,13 @@ function App() {
     }
   }, [cardList]);
 
-  const handleSelectCountry = (country, clearList = false) => {
+  const handleSelectCountry = (country) => {
     const countryData = countriesData.find((c) => c.name === country);
     if (countryData) {
-      if (clearList) {
-        setCardList([{ type: "country", data: countryData, country }]);
-      } else {
-        setCardList((previousCards) => [
-          ...previousCards,
-          { type: "country", data: countryData, country },
-        ]);
-      }
+      setCardList((previousCards) => [
+        ...previousCards,
+        { type: "country", data: countryData, country },
+      ]);
     }
   };
 
@@ -127,7 +123,7 @@ function App() {
       <Description />
       <CountryCards
         countries={countriesData}
-        onSelectCountry={(country) => handleSelectCountry(country, true)}
+        onSelectCountry={handleSelectCountry}
       />
       <div className="card-list">
         {cardList.map((card, index) => {
@@ -145,9 +141,7 @@ function App() {
                 ref={(el) => (cardRefs.current[index] = el)}
                 school={card.data}
                 onSelectPicture={handleSelectSchoolPicture}
-                onSelectCountry={(country) =>
-                  handleSelectCountry(country, false)
-                }
+                onSelectCountry={handleSelectCountry}
               />
             );
           } else if (card.type === "schoolPicture") {
