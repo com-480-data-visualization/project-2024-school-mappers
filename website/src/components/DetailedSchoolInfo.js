@@ -15,46 +15,43 @@ const DetailedSchoolInfo = forwardRef(({ school, onSelectPicture, onSelectCountr
   ];
 
   return (
-    <div ref={ref} className="card detailed-school-info">
-      <h2>
-        <strong>
-          {school.name}, {school.city} 
-        </strong>
-      </h2>
-      <button onClick={() => onSelectCountry(school.country)}>
-        a school in {school.country}
-      </button>
+    <div ref={ref} className="big-card">
+      <div className='school-header'>
+        <h2>
+          <strong>
+            {school.name}, {school.city} 
+          </strong>
+        </h2>
+        <button onClick={() => onSelectCountry(school.country)}>
+          {school.country}
+        </button>
 
-      <div className="card-content">
-        <div className="card">
-          <p>
-            <strong>Value:</strong> {school.value}
-          </p>
-          <p>
-            <strong>Year:</strong> {school.year}
-          </p>
-          <p>
-            <strong>Description:</strong> {school.description}
-          </p>
-          <p>
-            <strong>Source:</strong> {school.source}
-          </p>
+        <div className='school-data'>
+          <h4>Size</h4>
+          <p>{school.size}</p>
         </div>
-
+        <div className='school-data'>
+          <h4>Income</h4>
+          <p>{school.income}</p>
+        </div>
+        <div className='school-data'>
+          <h4>Tuition</h4>
+          <p>{school.tuition}</p>
+        </div>
+      </div>
+      
         <div className="card">
-          <h3>Pictures from the School</h3>
           {/** TODO: add the picture labels */}
           <div className="pictures">
             {school.pictures.map((picture, index) => (
               <img
                 key={index}
-                src={"./school.jpg"}
+                src={school.pictures[index].url}
                 alt={"a school picture"}
                 onClick={() => onSelectPicture(picture.type)}
                 className="school-picture"
               />
             ))}
-          </div>
         </div>
       </div>
     </div>

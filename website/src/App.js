@@ -4,6 +4,7 @@ import CountryCards from "./components/CountryCards";
 import DetailedCountryInfo from "./components/DetailedCountryInfo";
 import DetailedSchoolInfo from "./components/DetailedSchoolInfo";
 import SchoolPicture from "./components/SchoolPicture";
+import CompareData from "./components/CompareData";
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 
@@ -65,6 +66,16 @@ function App() {
     ]);
   };
 
+  const handleSelectVariable = (variable) => {
+    setCardList((previousCards) => [
+      ...previousCards,
+      {
+        type: "variable",
+        data: variable,
+      },
+    ]);
+  };
+
   return (
     <div className="App">
       <Header />
@@ -81,6 +92,7 @@ function App() {
                 ref={(el) => (cardRefs.current[index] = el)}
                 country={card.data}
                 onSelectSchool={handleSelectSchool}
+                onSelectVariable={handleSelectVariable}
               />
             );
           } else if (card.type === "school") {
@@ -98,6 +110,15 @@ function App() {
                 ref={(el) => (cardRefs.current[index] = el)}
                 pictureType={card.data}
                 onSelectSchool={handleSelectSchool}
+              />
+            );
+          } else if (card.type === "variable") {
+            return (
+              <CompareData
+                ref={(el) => (cardRefs.current[index] = el)}
+                countries={countriesData}
+                variable={card.data}
+                onSelectCountry={handleSelectCountry}
               />
             );
           }

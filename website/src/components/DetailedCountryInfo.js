@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import IncomeBarChart from "../graphs/IncomeBarChart";
 import PisaStackedBarChart from "../graphs/PisaStackedBarChart";
 
-const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
+const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVariable }, ref) => {
   if (!country) return null;
 
   const {
@@ -28,6 +28,9 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
       name: "School A",
       city: "City A",
       country: "Switzerland",
+      size: 1000,
+      tuition: 1000,
+      income: 1000000,
       value: 100,
       year: 2023,
       description: "A school description",
@@ -47,12 +50,15 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
       name: "School B",
       city: "City B",
       country: "Japan",
+      size: 789,
+      tuition: 0,
+      income: 6543,
       value: 200,
       year: 2023,
       description: "A school description",
       source: "A school source",
       pictures: [
-        { type: "Cafeteria", url: "./school.jpg" },
+        { type: "Cafeteria", url: "${process.env.PUBLIC_URL}/school.jpg" },
         { type: "Classroom", url: "./school.jpg" },
         { type: "Library", url: "./school.jpg" },
         { type: "Playground", url: "./school.jpg" },
@@ -79,10 +85,29 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
     })
   );
   return (
-    <div ref={ref} className="card detailed-country-info">
-      <h2>Details of {name}</h2>
+    <div ref={ref} className="big-card">
       <div className="card-content">
         <div className="info-column">
+          <h2>Details of {name}</h2>
+          <div className="card">
+            <p>Map</p>
+            <ul>
+              {schools.map((school) => (
+                <li
+                  className="school-entry"
+                  onClick={() => onSelectSchool(school)}
+                >
+                  {school.name} in {school.city}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="card">
+            <p>PISA repartition</p>
+          </div>
+        </div>
+
+        <div className="card schools-column">
           <div>
             <p>
               <strong>Population:</strong> {population?.value?.toLocaleString()}
@@ -95,10 +120,6 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
               <strong>PISA Score:</strong> {pisaScore?.Total?.value}
             </p>
             <p>
-              <strong>Literacy Rate:</strong>{" "}
-              {literacyRate?.value?.toLocaleString()}%
-            </p>
-            <p>
               <strong>HDI Rank:</strong> {hdiRank?.value}
             </p>
             <p>
@@ -109,7 +130,23 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
             </p>
           </div>
 
-          <div className="card">
+          <div>
+            <p onClick={() => onSelectVariable('dropout')}><b>Dropout</b></p>
+            <p onClick={() => onSelectVariable('enrolment')}><b>Enrolment</b></p>
+            <p>privateSchoolEnrolment</p>
+            <p>govExpenditure</p>
+            <p>schoolLifeExpectancy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+});
+
+export default DetailedCountryInfo;
+
+/** EXAMPLE GRAPHS
+ <div className="card">
             <IncomeBarChart
               data={transformedIncomeData}
               title="Income Distribution by Population Group"
@@ -124,24 +161,4 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool }, ref) => {
               subtitle="Source: OECD Programme for International Student Assessment (PISA)"
             />
           </div>
-        </div>
-
-        <div className="card schools-column">
-          <h3>Schools</h3>
-          <ul className="card">
-            {schools.map((school) => (
-              <li
-                className="school-entry"
-                onClick={() => onSelectSchool(school)}
-              >
-                {school.name} in {school.city}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-});
-
-export default DetailedCountryInfo;
+ */
