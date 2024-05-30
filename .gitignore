@@ -3,6 +3,7 @@ HDR23-24*
 
 website/node_modules
 website/node_modules/*
+website/node_modules/.bin
 website/node_modules/.package-lock.json
 website/node_modules/.bin/csv2json
 website/node_modules/.bin/csv2tsv
