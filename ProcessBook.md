@@ -35,7 +35,8 @@ eg:
         - macro data incomplete
         - micro data inexistant as a data set, has to be fetch by hand
         - ...
-
+- Milestone 3:
+        - Python to javascript ?
   
 The first challenge we encountered was the missing data about the schools. Believing in our visualisation idea, we made the decision to do the work of looking for data individually for the schools instead of changing our project, altough we reduced the expectations to 2 schools per country, comming repectively from a "rich" and a "poor" neighborhood. The project is however easily scalable, and could be expanded with minimal effort to more data.
 

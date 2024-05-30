@@ -1,0 +1,124 @@
+:root {
+  --light-blue: #a7e0fb;
+  --dark-blue: #23a2d7;
+  --light-gray: #f9f9f9;
+  --dark-gray: #ccc;
+  --pink: #f8bed7;
+  --orange: #ffcd88;
+  --purple: #bab3d5;
+  --yellow: #fff695;
+  --green: #d2e06f;
+  --gray: #f2f2f2;
+
+}
+
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  padding: 20px;
+  width: 100%;
+  background-color: var(--purple);
+  color: white;
+  text-align: center;
+
+}
+
+.description {
+  margin: 20px;
+  text-align: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.country-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.country-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.country-card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.country-card p {
+  margin: 5px 0;
+}
+
+.detailed-country-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #fff;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.detailed-country-info .info-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.detailed-country-info .schools-column {
+  flex: 1;
+}
+
+.detailed-country-info h2 {
+  margin-top: 0;
+}
+
+.detailed-school-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #fff;
+  width: 80%;
+}
+
+.detailed-school-info h2 {
+  margin-top: 0;
+}
+
+.school-entry {
+  cursor: pointer;
+  margin: 5px 0;
+  color: blue;
+}
+
+.school-picture{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+}

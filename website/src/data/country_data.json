@@ -1,0 +1,1433 @@
+[
+    {
+        "Variable":"PISA score",
+        "Detail":"Total",
+        "Country":"CHE",
+        "Value":"521.2506",
+        "Year":"2015",
+        "Description":"Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA score",
+        "Detail":"Total",
+        "Country":"JPN",
+        "Value":"532.4399",
+        "Year":"2015",
+        "Description":"Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA score",
+        "Detail":"Total",
+        "Country":"MEX",
+        "Value":"408.0235",
+        "Year":"2015",
+        "Description":"Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA score",
+        "Detail":"Total",
+        "Country":"USA",
+        "Value":"469.6285",
+        "Year":"2015",
+        "Description":"Average score of 15-year-old students on the PISA mathematics scale. The metric for the overall mathematics scale is based on a mean for OECD countries of 500 points and a standard deviation of 100 points. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"0",
+        "Country":"CHE",
+        "Value":"4.92091627551566",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"0",
+        "Country":"JPN",
+        "Value":"2.9395713480778",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"0",
+        "Country":"MEX",
+        "Value":"25.5335112085432",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"0",
+        "Country":"USA",
+        "Value":"10.5841181560014",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students below the lowest proficiency level (scoring 358 or below) on the PISA mathematics scale. Students below Level 1 may be able to perform very direct and straightforward mathematical tasks, such as reading a single value from a well-labeled chart or table where the labels on the chart match the words in the stimulus and question, so that the selection criteria are clear and the relationship between the chart and the aspects of the context depicted are evident, and performing arithmetic calculations with whole numbers by following clear and well-defined instructions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"1",
+        "Country":"CHE",
+        "Value":"10.8591707351427",
+        "Year":"2015",
+        "Description":"PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"1",
+        "Country":"JPN",
+        "Value":"7.75258343094927",
+        "Year":"2015",
+        "Description":"PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"1",
+        "Country":"MEX",
+        "Value":"31.1078644037835",
+        "Year":"2015",
+        "Description":"PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"1",
+        "Country":"USA",
+        "Value":"18.7947054294677",
+        "Year":"2015",
+        "Description":"PISA: 15-year-olds by mathematics proficiency level (%). Level 1",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"2",
+        "Country":"CHE",
+        "Value":"18.0976672151174",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"2",
+        "Country":"JPN",
+        "Value":"17.2260365216827",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"2",
+        "Country":"MEX",
+        "Value":"26.9414635647399",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"2",
+        "Country":"USA",
+        "Value":"26.1668124604649",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 420 but lower than or equal to 482 points on the PISA mathematics scale. At Level 2, students can interpret and recognize situations in contexts that require no more than direct inference. They can extract relevant information from a single source and make use of a single representational mode. Students at this level can employ basic algorithms, formulae, procedures, or conventions to solve problems involving whole numbers. They are capable of making literal interpretations of the results. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"3",
+        "Country":"CHE",
+        "Value":"23.6153540347165",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"3",
+        "Country":"JPN",
+        "Value":"25.8192158043242",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"3",
+        "Country":"MEX",
+        "Value":"12.8878550152634",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"3",
+        "Country":"USA",
+        "Value":"23.8052539789656",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 482 but lower than or equal to 545 points on the PISA mathematics scale. At Level 3, students can execute clearly described procedures, including those that require sequential decisions. Their interpretations are sufficiently sound to be a base for building a simple model or for selecting and applying simple problem- solving strategies. Students at this level can interpret and use representations based on different information sources and reason directly from them. They typically show some ability to handle percentages, fractions and decimal numbers, and to work with proportional relationships. Their solutions reflect that they have engaged in basic interpretation and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"4",
+        "Country":"CHE",
+        "Value":"23.2602045468261",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"4",
+        "Country":"JPN",
+        "Value":"25.9174919058719",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"4",
+        "Country":"MEX",
+        "Value":"3.19831692220138",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"4",
+        "Country":"USA",
+        "Value":"14.7432882763253",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 545 but lower than or equal to 607 on the PISA mathematics scale. At Level 4, students can work effectively with explicit models for complex concrete situations that may involve constraints or call for making assumptions. They can select and integrate different representations, including symbolic, linking them directly to aspects of real-world situations. Students at this level can utilize their limited range of skills and can reason with some insight, in straightforward contexts. They can construct and communicate explanations and arguments based on their interpretations, arguments, and actions. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"5",
+        "Country":"CHE",
+        "Value":"13.9517274294065",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"5",
+        "Country":"JPN",
+        "Value":"15.0485202934324",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"5",
+        "Country":"MEX",
+        "Value":"0.314829517757425",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"5",
+        "Country":"USA",
+        "Value":"5.0148971286283",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 607 but lower than or equal to 669 on the PISA mathematics scale. At Level 5, students can develop and work with models for complex situations, identifying constraints and specifying assumptions. They can select, compare, and evaluate appropriate problem-solving strategies for dealing with complex problems related to these models. Students at this level can work strategically using broad, well-developed thinking and reasoning skills, appropriate linked representations, symbolic and formal characterizations, and insight pertaining to these situations. They begin to reflect on their work and can formulate and communicate their interpretations and reasoning. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"6",
+        "Country":"CHE",
+        "Value":"5.29495976327518",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"6",
+        "Country":"JPN",
+        "Value":"5.29658069566177",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"6",
+        "Country":"MEX",
+        "Value":"0.0161593677111274",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"PISA repartition",
+        "Detail":"6",
+        "Country":"USA",
+        "Value":"0.890924570146699",
+        "Year":"2015",
+        "Description":"Percentage of 15-year-old students scoring higher than 669 on the PISA mathematics scale. At Level 6, students can conceptualize, generalize and utilize information based on their investigations and modeling of complex problem situations, and can use their knowledge in relatively non-standard contexts. They can link different information sources and representations and flexibly translate among them. Students at this level are capable of advanced mathematical thinking and reasoning. These students can apply this insight and understanding, along with a mastery of symbolic and formal mathematical operations and relationships, to develop new approaches and strategies for attacking novel situations. Students at this level can reflect on their actions, and can formulate and precisely communicate their actions and reflections regarding their findings, interpretations, arguments, and the appropriateness of these to the original situation. Data reflects country performance in the stated year according to PISA reports, but may not be comparable across years or countries. Consult the PISA website for more detailed information: http:\/\/www.oecd.org\/pisa\/",
+        "Source":"OECD Programme for International Student Assessment (PISA)"
+    },
+    {
+        "Variable":"GDP\/Capita",
+        "Detail":"Total",
+        "Country":"CHE",
+        "Value":"63741.4525065597",
+        "Year":"2016",
+        "Description":"GDP per capita, PPP (current international $)",
+        "Source":"World Bank, International Comparison Program database."
+    },
+    {
+        "Variable":"GDP\/Capita",
+        "Detail":"Total",
+        "Country":"IND",
+        "Value":"6583.37204969932",
+        "Year":"2016",
+        "Description":"GDP per capita, PPP (current international $)",
+        "Source":"World Bank, International Comparison Program database."
+    },
+    {
+        "Variable":"GDP\/Capita",
+        "Detail":"Total",
+        "Country":"JPN",
+        "Value":"41476.36029782",
+        "Year":"2016",
+        "Description":"GDP per capita, PPP (current international $)",
+        "Source":"World Bank, International Comparison Program database."
+    },
+    {
+        "Variable":"GDP\/Capita",
+        "Detail":"Total",
+        "Country":"MEX",
+        "Value":"17877.3578445939",
+        "Year":"2016",
+        "Description":"GDP per capita, PPP (current international $)",
+        "Source":"World Bank, International Comparison Program database."
+    },
+    {
+        "Variable":"GDP\/Capita",
+        "Detail":"Total",
+        "Country":"USA",
+        "Value":"57638.1590879883",
+        "Year":"2016",
+        "Description":"GDP per capita, PPP (current international $)",
+        "Source":"World Bank, International Comparison Program database."
+    },
+    {
+        "Variable":"Litteracy rate",
+        "Detail":"Female",
+        "Country":"IND",
+        "Value":"59.27732",
+        "Year":"2011",
+        "Description":"Adult literacy rate, population 15+ years, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Litteracy rate",
+        "Detail":"Female",
+        "Country":"MEX",
+        "Value":"93.4855",
+        "Year":"2015",
+        "Description":"Adult literacy rate, population 15+ years, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Litteracy rate",
+        "Detail":"Male",
+        "Country":"IND",
+        "Value":"78.87723",
+        "Year":"2011",
+        "Description":"Adult literacy rate, population 15+ years, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Litteracy rate",
+        "Detail":"Male",
+        "Country":"MEX",
+        "Value":"95.54933",
+        "Year":"2015",
+        "Description":"Adult literacy rate, population 15+ years, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Litteracy rate",
+        "Detail":"Total",
+        "Country":"IND",
+        "Value":"69.30256",
+        "Year":"2011",
+        "Description":"Adult literacy rate, population 15+ years, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Litteracy rate",
+        "Detail":"Total",
+        "Country":"MEX",
+        "Value":"94.47228",
+        "Year":"2015",
+        "Description":"Adult literacy rate, population 15+ years, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_primary",
+        "Country":"CHE",
+        "Value":"77.2800979614258",
+        "Year":"2015",
+        "Description":"Net enrolment rate, pre-primary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_primary",
+        "Country":"JPN",
+        "Value":"89.7667922973633",
+        "Year":"2013",
+        "Description":"Net enrolment rate, pre-primary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_primary",
+        "Country":"MEX",
+        "Value":"68.7245635986328",
+        "Year":"2014",
+        "Description":"Net enrolment rate, pre-primary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_primary",
+        "Country":"USA",
+        "Value":"63.570068359375",
+        "Year":"2015",
+        "Description":"Net enrolment rate, pre-primary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_primary",
+        "Country":"CHE",
+        "Value":"76.1442489624023",
+        "Year":"2015",
+        "Description":"Net enrolment rate, pre-primary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_primary",
+        "Country":"JPN",
+        "Value":"84.2306823730469",
+        "Year":"1999",
+        "Description":"Net enrolment rate, pre-primary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_primary",
+        "Country":"MEX",
+        "Value":"69.5666809082031",
+        "Year":"2014",
+        "Description":"Net enrolment rate, pre-primary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_primary",
+        "Country":"USA",
+        "Value":"63.9101295471191",
+        "Year":"2015",
+        "Description":"Net enrolment rate, pre-primary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_primary",
+        "Country":"CHE",
+        "Value":"78.3561782836914",
+        "Year":"2015",
+        "Description":"Net enrolment rate, pre-primary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_primary",
+        "Country":"JPN",
+        "Value":"82.6370010375977",
+        "Year":"1999",
+        "Description":"Net enrolment rate, pre-primary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_primary",
+        "Country":"MEX",
+        "Value":"67.9204330444335",
+        "Year":"2014",
+        "Description":"Net enrolment rate, pre-primary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_primary",
+        "Country":"USA",
+        "Value":"63.2441787719727",
+        "Year":"2015",
+        "Description":"Net enrolment rate, pre-primary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Primary",
+        "Country":"CHE",
+        "Value":"5.59647989273071",
+        "Year":"2015",
+        "Description":"Percentage of enrolment in primary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Primary",
+        "Country":"IND",
+        "Value":"34.7806282043457",
+        "Year":"2015",
+        "Description":"Percentage of enrolment in primary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Primary",
+        "Country":"JPN",
+        "Value":"1.16839003562927",
+        "Year":"2014",
+        "Description":"Percentage of enrolment in primary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Primary",
+        "Country":"MEX",
+        "Value":"8.73134994506835",
+        "Year":"2014",
+        "Description":"Percentage of enrolment in primary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Primary",
+        "Country":"USA",
+        "Value":"8.29216957092285",
+        "Year":"2015",
+        "Description":"Percentage of enrolment in primary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Total",
+        "Country":"CHE",
+        "Value":"16.1688899993896",
+        "Year":"2015",
+        "Description":"School life expectancy, primary to tertiary, both sexes (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Total",
+        "Country":"IND",
+        "Value":"11.9615297317505",
+        "Year":"2015",
+        "Description":"School life expectancy, primary to tertiary, both sexes (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Total",
+        "Country":"JPN",
+        "Value":"15.3587102890015",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, both sexes (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Total",
+        "Country":"MEX",
+        "Value":"13.299090385437",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, both sexes (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Total",
+        "Country":"USA",
+        "Value":"16.5381507873535",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, both sexes (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Female",
+        "Country":"CHE",
+        "Value":"16.1241798400879",
+        "Year":"2015",
+        "Description":"School life expectancy, primary to tertiary, female (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Female",
+        "Country":"IND",
+        "Value":"12.3209400177002",
+        "Year":"2015",
+        "Description":"School life expectancy, primary to tertiary, female (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Female",
+        "Country":"JPN",
+        "Value":"15.2468595504761",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, female (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Female",
+        "Country":"MEX",
+        "Value":"13.466290473938",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, female (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Female",
+        "Country":"USA",
+        "Value":"17.3453102111816",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, female (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Male",
+        "Country":"CHE",
+        "Value":"16.2133007049561",
+        "Year":"2015",
+        "Description":"School life expectancy, primary to tertiary, male (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Male",
+        "Country":"IND",
+        "Value":"11.6399097442627",
+        "Year":"2015",
+        "Description":"School life expectancy, primary to tertiary, male (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Male",
+        "Country":"JPN",
+        "Value":"15.4655504226685",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, male (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Male",
+        "Country":"MEX",
+        "Value":"13.1326398849487",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, male (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"School life expectancy",
+        "Detail":"Male",
+        "Country":"USA",
+        "Value":"15.7578496932983",
+        "Year":"2014",
+        "Description":"School life expectancy, primary to tertiary, male (years)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_secondary",
+        "Country":"CHE",
+        "Value":"84.9164886474609",
+        "Year":"2015",
+        "Description":"Net enrolment rate, secondary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_secondary",
+        "Country":"IND",
+        "Value":"61.755241394043",
+        "Year":"2013",
+        "Description":"Net enrolment rate, secondary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_secondary",
+        "Country":"JPN",
+        "Value":"99.0426712036133",
+        "Year":"2014",
+        "Description":"Net enrolment rate, secondary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_secondary",
+        "Country":"MEX",
+        "Value":"67.4097366333008",
+        "Year":"2012",
+        "Description":"Net enrolment rate, secondary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Total_secondary",
+        "Country":"USA",
+        "Value":"90.462287902832",
+        "Year":"2014",
+        "Description":"Net enrolment rate, secondary, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_secondary",
+        "Country":"CHE",
+        "Value":"83.8262481689453",
+        "Year":"2015",
+        "Description":"Net enrolment rate, secondary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_secondary",
+        "Country":"IND",
+        "Value":"62.177921295166",
+        "Year":"2013",
+        "Description":"Net enrolment rate, secondary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_secondary",
+        "Country":"JPN",
+        "Value":"99.4387588500977",
+        "Year":"2014",
+        "Description":"Net enrolment rate, secondary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_secondary",
+        "Country":"MEX",
+        "Value":"68.7788314819335",
+        "Year":"2012",
+        "Description":"Net enrolment rate, secondary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Female_secondary",
+        "Country":"USA",
+        "Value":"91.9820327758789",
+        "Year":"2014",
+        "Description":"Net enrolment rate, secondary, female (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_secondary",
+        "Country":"CHE",
+        "Value":"85.9521484375",
+        "Year":"2015",
+        "Description":"Net enrolment rate, secondary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_secondary",
+        "Country":"IND",
+        "Value":"61.3751983642578",
+        "Year":"2013",
+        "Description":"Net enrolment rate, secondary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_secondary",
+        "Country":"JPN",
+        "Value":"98.665428161621",
+        "Year":"2014",
+        "Description":"Net enrolment rate, secondary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_secondary",
+        "Country":"MEX",
+        "Value":"66.084373474121",
+        "Year":"2012",
+        "Description":"Net enrolment rate, secondary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Enrolment",
+        "Detail":"Male_secondary",
+        "Country":"USA",
+        "Value":"89.0200576782227",
+        "Year":"2014",
+        "Description":"Net enrolment rate, secondary, male (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Secondary",
+        "Country":"CHE",
+        "Value":"12.0093698501587",
+        "Year":"2015",
+        "Description":"Percentage of enrolment in secondary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Secondary",
+        "Country":"IND",
+        "Value":"50.1724510192871",
+        "Year":"2015",
+        "Description":"Percentage of enrolment in secondary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Secondary",
+        "Country":"JPN",
+        "Value":"19.7353591918945",
+        "Year":"2014",
+        "Description":"Percentage of enrolment in secondary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Secondary",
+        "Country":"MEX",
+        "Value":"13.7899904251099",
+        "Year":"2014",
+        "Description":"Percentage of enrolment in secondary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Private school enrolment",
+        "Detail":"Secondary",
+        "Country":"USA",
+        "Value":"7.91138982772827",
+        "Year":"2014",
+        "Description":"Percentage of enrolment in secondary education in private institutions (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Primary",
+        "Country":"CHE",
+        "Value":"25.5142402648926",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Primary",
+        "Country":"IND",
+        "Value":"9.76755046844482",
+        "Year":"2013",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Primary",
+        "Country":"JPN",
+        "Value":"22.5268001556396",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Primary",
+        "Country":"MEX",
+        "Value":"14.9120502471924",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Primary",
+        "Country":"USA",
+        "Value":"19.9227294921875",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Secondary",
+        "Country":"CHE",
+        "Value":"25.5142402648926",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Secondary",
+        "Country":"IND",
+        "Value":"9.76755046844482",
+        "Year":"2013",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Secondary",
+        "Country":"JPN",
+        "Value":"22.5268001556396",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Secondary",
+        "Country":"MEX",
+        "Value":"14.9120502471924",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Secondary",
+        "Country":"USA",
+        "Value":"19.9227294921875",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Tertiary",
+        "Country":"CHE",
+        "Value":"25.5142402648926",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Tertiary",
+        "Country":"IND",
+        "Value":"9.76755046844482",
+        "Year":"2013",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Tertiary",
+        "Country":"JPN",
+        "Value":"22.5268001556396",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Tertiary",
+        "Country":"MEX",
+        "Value":"14.9120502471924",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Tertiary",
+        "Country":"USA",
+        "Value":"19.9227294921875",
+        "Year":"2014",
+        "Description":"Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Total",
+        "Country":"CHE",
+        "Value":"5.09607982635498",
+        "Year":"2014",
+        "Description":"Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and\/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Total",
+        "Country":"IND",
+        "Value":"3.84236001968384",
+        "Year":"2013",
+        "Description":"Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and\/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Total",
+        "Country":"JPN",
+        "Value":"3.59184002876282",
+        "Year":"2014",
+        "Description":"Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and\/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Total",
+        "Country":"MEX",
+        "Value":"5.31347990036011",
+        "Year":"2014",
+        "Description":"Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and\/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Gov. Expenditure on education",
+        "Detail":"Total",
+        "Country":"USA",
+        "Value":"5.38078022003174",
+        "Year":"2014",
+        "Description":"Total general (local, regional and central) government expenditure on education (current, capital, and transfers), expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. Divide total government expenditure for a given level of education (ex. primary, secondary, or all levels combined) by the GDP, and multiply by 100. A higher percentage of GDP spent on education shows a higher government priority for education, but also a higher capacity of the government to raise revenues for public spending, in relation to the size of the country's economy. When interpreting this indicator however, one should keep in mind in some countries, the private sector and\/or households may fund a higher proportion of total funding for education, thus making government expenditure appear lower than in other countries. For more information, consult the UNESCO Institute of Statistics website: http:\/\/www.uis.unesco.org\/Education\/",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Population",
+        "Detail":"Total",
+        "Country":"CHE",
+        "Value":"8372098.0",
+        "Year":"2016",
+        "Description":"Population, total",
+        "Source":"(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+    },
+    {
+        "Variable":"Population",
+        "Detail":"Total",
+        "Country":"IND",
+        "Value":"1324171354.0",
+        "Year":"2016",
+        "Description":"Population, total",
+        "Source":"(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+    },
+    {
+        "Variable":"Population",
+        "Detail":"Total",
+        "Country":"JPN",
+        "Value":"126994511.0",
+        "Year":"2016",
+        "Description":"Population, total",
+        "Source":"(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+    },
+    {
+        "Variable":"Population",
+        "Detail":"Total",
+        "Country":"MEX",
+        "Value":"127540423.0",
+        "Year":"2016",
+        "Description":"Population, total",
+        "Source":"(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+    },
+    {
+        "Variable":"Population",
+        "Detail":"Total",
+        "Country":"USA",
+        "Value":"323127513.0",
+        "Year":"2016",
+        "Description":"Population, total",
+        "Source":"(1) United Nations Population Division. World Population Prospects, (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) United Nations Statistical Division. Population and Vital Statistics Report (various years), (5) U.S. Census Bureau: International Database, and (6) Secretariat of the Pacific Community: Statistics and Demography Programme."
+    },
+    {
+        "Variable":"Dropout",
+        "Detail":"Total",
+        "Country":"CHE",
+        "Value":"1.78322005271912",
+        "Year":"2013",
+        "Description":"Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Dropout",
+        "Detail":"Total",
+        "Country":"IND",
+        "Value":"2.98722004890442",
+        "Year":"2010",
+        "Description":"Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Dropout",
+        "Detail":"Total",
+        "Country":"JPN",
+        "Value":"0.0797699987888336",
+        "Year":"1994",
+        "Description":"Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Dropout",
+        "Detail":"Total",
+        "Country":"MEX",
+        "Value":"10.2019395828247",
+        "Year":"2013",
+        "Description":"Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
+        "Source":"UNESCO Institute for Statistics"
+    },
+    {
+        "Variable":"Name",
+        "Detail":"\/",
+        "Country":"USA",
+        "Value":"United States",
+        "Year":"2024",
+        "Description":null,
+        "Source":"World Bank"
+    },
+    {
+        "Variable":"Name",
+        "Detail":"\/",
+        "Country":"MEX",
+        "Value":"Mexico",
+        "Year":"2024",
+        "Description":null,
+        "Source":"World Bank"
+    },
+    {
+        "Variable":"Name",
+        "Detail":"\/",
+        "Country":"JPN",
+        "Value":"Japan",
+        "Year":"2024",
+        "Description":null,
+        "Source":"World Bank"
+    },
+    {
+        "Variable":"Name",
+        "Detail":"\/",
+        "Country":"IND",
+        "Value":"India",
+        "Year":"2024",
+        "Description":null,
+        "Source":"World Bank"
+    },
+    {
+        "Variable":"Name",
+        "Detail":"\/",
+        "Country":"CHE",
+        "Value":"Switzerland",
+        "Year":"2024",
+        "Description":null,
+        "Source":"World Bank"
+    },
+    {
+        "Variable":"HDI Rank",
+        "Detail":"\/",
+        "Country":"IND",
+        "Value":"134.0",
+        "Year":"2022",
+        "Description":"HDI rank over 193 countries",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI Rank",
+        "Detail":"\/",
+        "Country":"JPN",
+        "Value":"24.0",
+        "Year":"2022",
+        "Description":"HDI rank over 193 countries",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI Rank",
+        "Detail":"\/",
+        "Country":"MEX",
+        "Value":"77.0",
+        "Year":"2022",
+        "Description":"HDI rank over 193 countries",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI Rank",
+        "Detail":"\/",
+        "Country":"CHE",
+        "Value":"1.0",
+        "Year":"2022",
+        "Description":"HDI rank over 193 countries",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI Rank",
+        "Detail":"\/",
+        "Country":"USA",
+        "Value":"20.0",
+        "Year":"2022",
+        "Description":"HDI rank over 193 countries",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI",
+        "Detail":"\/",
+        "Country":"IND",
+        "Value":"0.644",
+        "Year":"2022",
+        "Description":"Human Development Index (value)",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI",
+        "Detail":"\/",
+        "Country":"JPN",
+        "Value":"0.92",
+        "Year":"2022",
+        "Description":"Human Development Index (value)",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI",
+        "Detail":"\/",
+        "Country":"MEX",
+        "Value":"0.781",
+        "Year":"2022",
+        "Description":"Human Development Index (value)",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI",
+        "Detail":"\/",
+        "Country":"CHE",
+        "Value":"0.967",
+        "Year":"2022",
+        "Description":"Human Development Index (value)",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"HDI",
+        "Detail":"\/",
+        "Country":"USA",
+        "Value":"0.927",
+        "Year":"2022",
+        "Description":"Human Development Index (value)",
+        "Source":"Human Development Report (United Nations)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Poorest 40 percent",
+        "Country":"CHE",
+        "Value":"19.9",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Poorest 40 percent",
+        "Country":"USA",
+        "Value":"16.6",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Poorest 40 percent",
+        "Country":"JPN",
+        "Value":"20.5",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Poorest 40 percent",
+        "Country":"MEX",
+        "Value":"14.3",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Poorest 40 percent",
+        "Country":"IND",
+        "Value":"20",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the poorest 40 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Richest 10 percent",
+        "Country":"CHE",
+        "Value":"25.8",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Richest 10 percent",
+        "Country":"USA",
+        "Value":"30.1",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Richest 10 percent",
+        "Country":"JPN",
+        "Value":"26.4",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Richest 10 percent",
+        "Country":"MEX",
+        "Value":"35.5",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":"Richest 10 percent",
+        "Country":"IND",
+        "Value":"27.8",
+        "Year":"2010-2022",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the richest 10 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":" Richest 1 percent",
+        "Country":"CHE",
+        "Value":"9.86",
+        "Year":"2021",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":" Richest 1 percent",
+        "Country":"USA",
+        "Value":"19.03",
+        "Year":"2021",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":" Richest 1 percent",
+        "Country":"JPN",
+        "Value":"12.86",
+        "Year":"2021",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":" Richest 1 percent",
+        "Country":"MEX",
+        "Value":"26.81",
+        "Year":"2021",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Income",
+        "Detail":" Richest 1 percent",
+        "Country":"IND",
+        "Value":"21.73",
+        "Year":"2021",
+        "Description":"Income shares (%): Percentage share of income (or consumption) that accrues to the  richest 1 percent of the population",
+        "Source":"World Bank (2023)"
+    },
+    {
+        "Variable":"Gini",
+        "Detail":"\/",
+        "Country":"CHE",
+        "Value":"33.1",
+        "Year":"2010-2022",
+        "Description":"Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+        "Source":"World Inequality Database (2022)"
+    },
+    {
+        "Variable":"Gini",
+        "Detail":"\/",
+        "Country":"USA",
+        "Value":"39.8",
+        "Year":"2010-2022",
+        "Description":"Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+        "Source":"World Inequality Database (2022)"
+    },
+    {
+        "Variable":"Gini",
+        "Detail":"\/",
+        "Country":"JPN",
+        "Value":"32.9",
+        "Year":"2010-2022",
+        "Description":"Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+        "Source":"World Inequality Database (2022)"
+    },
+    {
+        "Variable":"Gini",
+        "Detail":"\/",
+        "Country":"MEX",
+        "Value":"45.4",
+        "Year":"2010-2022",
+        "Description":"Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+        "Source":"World Inequality Database (2022)"
+    },
+    {
+        "Variable":"Gini",
+        "Detail":"\/",
+        "Country":"IND",
+        "Value":"34.2",
+        "Year":"2010-2022",
+        "Description":"Gini coefficient: Measure of the deviation of the distribution of income among individuals or households in a country from a perfectly equal distribution. A value of 0 represents absolute equality, a value of 100 absolute inequality.",
+        "Source":"World Inequality Database (2022)"
+    }
+]
