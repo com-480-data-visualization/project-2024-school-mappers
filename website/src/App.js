@@ -127,7 +127,7 @@ function App() {
       <Description />
       <CountryCards
         countries={countriesData}
-        onSelectCountry={handleSelectCountry}
+        onSelectCountry={(country) => handleSelectCountry(country, true)}
       />
       <div className="card-list">
         {cardList.map((card, index) => {
