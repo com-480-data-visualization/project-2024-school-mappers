@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%7Bproject-2024-school-mappers%7D/static/css/main.e96d3183.css",
+    "main.js": "/%7Bproject-2024-school-mappers%7D/static/js/main.385c9d06.js",
+    "static/js/453.8851efe8.chunk.js": "/%7Bproject-2024-school-mappers%7D/static/js/453.8851efe8.chunk.js",
+    "index.html": "/%7Bproject-2024-school-mappers%7D/index.html",
+    "main.e96d3183.css.map": "/%7Bproject-2024-school-mappers%7D/static/css/main.e96d3183.css.map",
+    "main.385c9d06.js.map": "/%7Bproject-2024-school-mappers%7D/static/js/main.385c9d06.js.map",
+    "453.8851efe8.chunk.js.map": "/%7Bproject-2024-school-mappers%7D/static/js/453.8851efe8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e96d3183.css",
+    "static/js/main.385c9d06.js"
+  ]
+}
