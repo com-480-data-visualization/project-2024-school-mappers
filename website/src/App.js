@@ -145,7 +145,9 @@ function App() {
                 ref={(el) => (cardRefs.current[index] = el)}
                 school={card.data}
                 onSelectPicture={handleSelectSchoolPicture}
-                onSelectCountry={handleSelectCountry}
+                onSelectCountry={(country) =>
+                  handleSelectCountry(country, false)
+                }
               />
             );
           } else if (card.type === "schoolPicture") {
