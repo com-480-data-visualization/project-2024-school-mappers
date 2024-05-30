@@ -127,7 +127,7 @@ function App() {
       <Description />
       <CountryCards
         countries={countriesData}
-        onSelectCountry={handleSelectCountry}
+        onSelectCountry={(country) => handleSelectCountry(country, true)}
       />
       <div className="card-list">
         {cardList.map((card, index) => {
@@ -145,7 +145,9 @@ function App() {
                 ref={(el) => (cardRefs.current[index] = el)}
                 school={card.data}
                 onSelectPicture={handleSelectSchoolPicture}
-                onSelectCountry={handleSelectCountry}
+                onSelectCountry={(country) =>
+                  handleSelectCountry(country, false)
+                }
               />
             );
           } else if (card.type === "schoolPicture") {
