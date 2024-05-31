@@ -104,6 +104,7 @@ function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEven
         textLeft
     } = variable;
 
+    const title_for_clic = title;
     let y2 = 0;
     const lines = types.map((type, i) => {
         if(!show_gender && type.is_gender){
@@ -117,7 +118,7 @@ function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEven
             textRight: ""
         }
         y2 += 30;
-        return <BasicBarGraph key={type.title} variable={variable_updated} width={width} graph_xs={graph_xs} color={color} y={y2-30} clicEvent={clicEvent}/>
+        return <BasicBarGraph key={type.title} variable={variable_updated} width={width} graph_xs={graph_xs} color={color} y={y2-30} clicEvent={(_) => clicEvent(title_for_clic)}/>
     })
 
     return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(`${key} `)}>

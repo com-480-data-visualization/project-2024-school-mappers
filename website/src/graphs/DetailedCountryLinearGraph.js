@@ -21,7 +21,7 @@ export function DetailedCountryLinearGraph({ data, color, clicEvent }) {
             min: 0,
             max: 1,
             data: data["HDI"],
-            key: "HDI",
+            key: "hdi",
             textLeft: "0",
             textRight: "1"
         }, {
@@ -39,7 +39,7 @@ export function DetailedCountryLinearGraph({ data, color, clicEvent }) {
             min: 100,
             max: 0,
             data: data["Gini"],
-            key: "Gini",
+            key: "Gini index",
             textLeft: "inequal",
             textRight: "equal"
         }, {
@@ -48,7 +48,7 @@ export function DetailedCountryLinearGraph({ data, color, clicEvent }) {
             min: 1000,
             max: 100000,
             data: data["GDP/Capita"].Total,
-            key: "GDP/Capita",
+            key: "GDP / Capita",
             textLeft: "PPP$ ",
             textRight: ""
         }, {
@@ -75,7 +75,7 @@ export function DetailedCountryLinearGraph({ data, color, clicEvent }) {
             min: 0,
             max: 100,
             data: data["Private school enrolment"],
-            key: "Private school enrolment",
+            key: "Private School Enrolment",
             textLeft: "0 %",
             textRight: "100 %"
         }, {
