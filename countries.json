@@ -123,24 +123,24 @@
         },
         "Enrolment": {
             "Total_primary": {
-                "value": 77.2800979614258,
-                "valueFormatted": "77%",
+                "value": 93.3163223266602,
+                "valueFormatted": "93%",
                 "year": 2015,
-                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "description": "Net enrolment rate, primary, both sexes (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Female_primary": {
-                "value": 76.1442489624023,
-                "valueFormatted": "76%",
+                "value": 93.1687622070313,
+                "valueFormatted": "93%",
                 "year": 2015,
-                "description": "Net enrolment rate, pre-primary, female (%)",
+                "description": "Net enrolment rate, primary, female (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Male_primary": {
-                "value": 78.3561782836914,
-                "valueFormatted": "78%",
+                "value": 93.4561462402344,
+                "valueFormatted": "93%",
                 "year": 2015,
-                "description": "Net enrolment rate, pre-primary, male (%)",
+                "description": "Net enrolment rate, primary, male (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Total_secondary": {
@@ -213,15 +213,15 @@
                 "source": "UNESCO Institute for Statistics"
             },
             "Secondary": {
-                "value": 25.5142402648926,
+                "value": 26.0142097473145,
                 "valueFormatted": "26%",
-                "year": 2014,
+                "year": 2011,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
             },
             "Tertiary": {
-                "value": 25.5142402648926,
-                "valueFormatted": "26%",
+                "value": 38.0261192321777,
+                "valueFormatted": "38%",
                 "year": 2014,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
@@ -366,10 +366,24 @@
         },
         "Enrolment": {
             "Total_primary": {
-                "value": 89.7667922973633,
-                "valueFormatted": "90%",
-                "year": 2013,
-                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "value": 99.9500122070313,
+                "valueFormatted": "1e+02%",
+                "year": 2014,
+                "description": "Net enrolment rate, primary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_primary": {
+                "value": 99.9500198364258,
+                "valueFormatted": "1e+02%",
+                "year": 2014,
+                "description": "Net enrolment rate, primary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_primary": {
+                "value": 99.9499969482422,
+                "valueFormatted": "1e+02%",
+                "year": 2014,
+                "description": "Net enrolment rate, primary, male (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Total_secondary": {
@@ -442,15 +456,15 @@
                 "source": "UNESCO Institute for Statistics"
             },
             "Secondary": {
-                "value": 22.5268001556396,
-                "valueFormatted": "23%",
+                "value": 23.9158592224121,
+                "valueFormatted": "24%",
                 "year": 2014,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
             },
             "Tertiary": {
-                "value": 22.5268001556396,
-                "valueFormatted": "23%",
+                "value": 24.578010559082,
+                "valueFormatted": "25%",
                 "year": 2014,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
@@ -611,24 +625,24 @@
         },
         "Enrolment": {
             "Total_primary": {
-                "value": 68.7245635986328,
-                "valueFormatted": "69%",
+                "value": 95.0582962036133,
+                "valueFormatted": "95%",
                 "year": 2014,
-                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "description": "Net enrolment rate, primary, both sexes (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Female_primary": {
-                "value": 69.5666809082031,
-                "valueFormatted": "70%",
+                "value": 95.4524002075195,
+                "valueFormatted": "95%",
                 "year": 2014,
-                "description": "Net enrolment rate, pre-primary, female (%)",
+                "description": "Net enrolment rate, primary, female (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Male_primary": {
-                "value": 67.9204330444335,
-                "valueFormatted": "68%",
+                "value": 94.6793670654297,
+                "valueFormatted": "95%",
                 "year": 2014,
-                "description": "Net enrolment rate, pre-primary, male (%)",
+                "description": "Net enrolment rate, primary, male (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Total_secondary": {
@@ -701,15 +715,15 @@
                 "source": "UNESCO Institute for Statistics"
             },
             "Secondary": {
-                "value": 14.9120502471924,
-                "valueFormatted": "15%",
+                "value": 16.4112091064453,
+                "valueFormatted": "16%",
                 "year": 2014,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
             },
             "Tertiary": {
-                "value": 14.9120502471924,
-                "valueFormatted": "15%",
+                "value": 41.6539611816406,
+                "valueFormatted": "42%",
                 "year": 2014,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
@@ -854,24 +868,24 @@
         },
         "Enrolment": {
             "Total_primary": {
-                "value": 63.570068359375,
-                "valueFormatted": "64%",
+                "value": 93.7541885375977,
+                "valueFormatted": "94%",
                 "year": 2015,
-                "description": "Net enrolment rate, pre-primary, both sexes (%)",
+                "description": "Net enrolment rate, primary, both sexes (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Female_primary": {
-                "value": 63.9101295471191,
-                "valueFormatted": "64%",
+                "value": 94.0818023681641,
+                "valueFormatted": "94%",
                 "year": 2015,
-                "description": "Net enrolment rate, pre-primary, female (%)",
+                "description": "Net enrolment rate, primary, female (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Male_primary": {
-                "value": 63.2441787719727,
-                "valueFormatted": "63%",
+                "value": 93.4395370483398,
+                "valueFormatted": "93%",
                 "year": 2015,
-                "description": "Net enrolment rate, pre-primary, male (%)",
+                "description": "Net enrolment rate, primary, male (%)",
                 "source": "UNESCO Institute for Statistics"
             },
             "Total_secondary": {
@@ -944,15 +958,15 @@
                 "source": "UNESCO Institute for Statistics"
             },
             "Secondary": {
-                "value": 19.9227294921875,
-                "valueFormatted": "20%",
+                "value": 22.5159091949463,
+                "valueFormatted": "23%",
                 "year": 2014,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
             },
             "Tertiary": {
-                "value": 19.9227294921875,
-                "valueFormatted": "20%",
+                "value": 28.1375007629395,
+                "valueFormatted": "28%",
                 "year": 2014,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
@@ -1056,6 +1070,27 @@
             "source": "World Inequality Database (2022)"
         },
         "Enrolment": {
+            "Total_primary": {
+                "value": 92.2584609985352,
+                "valueFormatted": "92%",
+                "year": 2013,
+                "description": "Net enrolment rate, primary, both sexes (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Female_primary": {
+                "value": 92.9199981689453,
+                "valueFormatted": "93%",
+                "year": 2013,
+                "description": "Net enrolment rate, primary, female (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
+            "Male_primary": {
+                "value": 91.6667022705078,
+                "valueFormatted": "92%",
+                "year": 2013,
+                "description": "Net enrolment rate, primary, male (%)",
+                "source": "UNESCO Institute for Statistics"
+            },
             "Total_secondary": {
                 "value": 61.755241394043,
                 "valueFormatted": "62%",
@@ -1126,15 +1161,15 @@
                 "source": "UNESCO Institute for Statistics"
             },
             "Secondary": {
-                "value": 9.76755046844482,
-                "valueFormatted": "9.8%",
+                "value": 16.8129997253418,
+                "valueFormatted": "17%",
                 "year": 2013,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
             },
             "Tertiary": {
-                "value": 9.76755046844482,
-                "valueFormatted": "9.8%",
+                "value": 49.1511001586914,
+                "valueFormatted": "49%",
                 "year": 2013,
                 "description": "Average total (current, capital and transfers) general government expenditure per student in the given level of education, expressed as a percentage of GDP per capita. Divide total government expenditure for a given level of education (ex. primary, secondary) by total enrolment in that same level, divide again by GDP per capita, and multiply by 100. For more information, consult the UNESCO Institute of Statistics website: http://www.uis.unesco.org/Education/",
                 "source": "UNESCO Institute for Statistics"
