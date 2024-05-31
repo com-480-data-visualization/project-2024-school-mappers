@@ -150,3 +150,8 @@
   opacity: 0.5;
   font-size: 15px;
 }
+
+.valueFormatted{
+  font-size: 12px;
+  font-style: bold;
+}

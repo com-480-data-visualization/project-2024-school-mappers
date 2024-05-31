@@ -2,6 +2,8 @@ import React, { forwardRef } from "react";
 import IncomeBarChart from "../graphs/IncomeBarChart";
 import PisaStackedBarChart from "../graphs/PisaStackedBarChart";
 import { DetailedCountryLinearGraph } from "../graphs/LinearGraphs";
+import * as d3 from 'd3';
+
 
 const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVariable }, ref) => {
   if (!country) return null;
@@ -24,6 +26,9 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
     "Gov. Expenditure on education": govExpenditure,
     Dropout: dropout,
   } = country;
+
+  const colorMap = d3.scaleOrdinal(d3.schemeAccent);
+
 
   const schools = [
     {
