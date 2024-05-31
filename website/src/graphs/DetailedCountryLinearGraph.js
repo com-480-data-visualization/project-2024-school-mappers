@@ -16,12 +16,12 @@ export function DetailedCountryLinearGraph({ data, color, clicEvent }) {
             textLeft: "1 million",
             textRight: "10 billion"
         }, {
-            title: "hdi",
+            title: "HDI",
             type: "basic",
             min: 0,
             max: 1,
             data: data["HDI"],
-            key: "hdi",
+            key: "HDI",
             textLeft: "0",
             textRight: "1"
         }, {

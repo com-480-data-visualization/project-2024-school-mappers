@@ -25,7 +25,7 @@ function BasicBarGraph({variable, width, graph_xs, color, y, clicEvent}){
     const textBaseline = 0.65*height;
     const label_x = graph_xs[0] + rect_width + ((fraction<0.5) ? textMargin :  -textMargin)
     
-    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(title)}>
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(key)}>
         <text x={0} y={textBaseline} className='lineTitle' >{title}{title? " :" : ""}</text>
         <text x={graph_xs[0] -textMargin} y={textBaseline} className='leftValue' textAnchor='end' width={100}>{textLeft}</text>
         <rect x={graph_xs[0]} y={0.1*height} width={rect_width} height={0.8*height} fill={color}/>
@@ -85,7 +85,7 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
         return <ExpenditureTypeGraph key={part} rect_gdp={rect_gdp} textLeft={part + " schools"} textRight="per student" value={value} valueFormatted={valueFormatted} y2={30*i} min={min.exp} max={max.exp}/>
     })
 
-    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(title)}>
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(key)}>
         <text x={0} y={0.65*30} className='lineTitle' >{title} :</text>
         {lines}
     </g>
@@ -104,7 +104,6 @@ function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEven
         textLeft
     } = variable;
 
-    const title_for_clic = title;
     let y2 = 0;
     const lines = types.map((type, i) => {
         if(!show_gender && type.is_gender){
@@ -118,7 +117,7 @@ function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEven
             textRight: ""
         }
         y2 += 30;
-        return <BasicBarGraph key={type.title} variable={variable_updated} width={width} graph_xs={graph_xs} color={color} y={y2-30} clicEvent={(_) => clicEvent(title_for_clic)}/>
+        return <BasicBarGraph key={type.title} variable={variable_updated} width={width} graph_xs={graph_xs} color={color} y={y2-30} clicEvent={clicEvent}/>
     })
 
     return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(`${key} `)}>
