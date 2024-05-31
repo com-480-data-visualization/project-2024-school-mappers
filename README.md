@@ -135,7 +135,12 @@ Some of us worked on the same project for the ADA course. We did an analysis on 
 ## Milestone 3 (31st May, 5pm)
 
 **80% of the final grade**
-
+- The repository contains the notebooks for the first and second milestones. It also contains notebook used to prepare the final dataset and parser to structure them for the website.
+- The website is done using the REACT framework. The code is in the website folder. The website is deployed using GitHub pages.
+- If changes were to be made on the website, the user will have to run 'npm run build' and 'npm run deploy' from the terminal to update the GitHub page. More specific indications can be found [here](https://github.com/gitname/react-gh-pages).
+- The **website** can be found [here](https://com-480-data-visualization.github.io/project-2024-school-mappers/).
+- The **process book** can be [here](processbook.pdf).
+- The **screencast** can be [here](screencast.mp4).
 
 ## Late policy
 
