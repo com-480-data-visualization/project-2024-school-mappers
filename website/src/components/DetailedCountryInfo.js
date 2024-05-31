@@ -27,8 +27,8 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
     Dropout: dropout,
   } = country;
 
-  const colorMap = d3.scaleOrdinal(d3.schemeAccent);
-
+  const colorMap = d3.scaleOrdinal([0,4], ["red", "white", "blue", "green", "yellow"]);
+  const color = colorMap(id);
 
   const schools = [
     {
@@ -116,7 +116,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
         </div>
 
         <div className="card schools-column">
-          <DetailedCountryLinearGraph data={country} color="red"/>
+          <DetailedCountryLinearGraph data={country} color={color}/>
 
           <div>
             <p onClick={() => onSelectVariable('dropout')}><b>Dropout</b></p>

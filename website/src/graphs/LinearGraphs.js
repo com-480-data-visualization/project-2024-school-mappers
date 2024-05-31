@@ -1,16 +1,6 @@
 import React, { useEffect } from 'react';
 import * as d3 from 'd3';
 
-function BarGraphElement({height, fraction, rect_width, textBaseline, color, title}) {
-    return <g transform={`translate(0, ${y})`}>
-        <text x={0} y={textBaseline} className='lineTitle' >{title} :</text>
-        <text x={graph_xs[0] -textMargin} y={textBaseline} className='lineTitle' textAnchor='end' width={100}>{textLeft}</text>
-        <rect x={graph_xs[0]} y={0.1*height} width={rect_width} height={0.8*height} fill={color}/>
-        <text x={label_x} y={textBaseline} className='valueFormatted' fill={(fraction<0.5) ? color : "white"} textAnchor={fraction<0.5 ? 'start' : 'end'}>{data?.valueFormatted} </text>
-        <text x={graph_xs[1] + textMargin} y={textBaseline} className='rightValue' width={100}>{textRight}</text>
-    </g>
-}
-
 function BasicBarGraph({variable, width, graph_xs, color, y}){
     const {
         title,
@@ -35,10 +25,16 @@ function BasicBarGraph({variable, width, graph_xs, color, y}){
     const textBaseline = 0.65*height;
     const label_x = graph_xs[0] + rect_width + ((fraction<0.5) ? textMargin :  -textMargin)
     
-    
+    return <g transform={`translate(0, ${y})`}>
+        <text x={0} y={textBaseline} className='lineTitle' >{title} :</text>
+        <text x={graph_xs[0] -textMargin} y={textBaseline} className='leftValue' textAnchor='end' width={100}>{textLeft}</text>
+        <rect x={graph_xs[0]} y={0.1*height} width={rect_width} height={0.8*height} fill={color}/>
+        <text x={label_x} y={textBaseline} className='valueFormatted' fill={(fraction<0.5) ? color : "white"} textAnchor={fraction<0.5 ? 'start' : 'end'}>{data?.valueFormatted} </text>
+        <text x={graph_xs[1] + textMargin} y={textBaseline} className='rightValue' width={100}>{textRight}</text>
+    </g>
 }
 
-function ImageBarGraph({variable, width, graph_xs, color, y, image}){
+/* function ExpenditureBarGraph({variable, width, graph_xs, color, y, image}){
     const {
         title,
         min,
@@ -74,7 +70,7 @@ function ImageBarGraph({variable, width, graph_xs, color, y, image}){
         <text x={label_x} y={textBaseline} className='valueFormatted' fill={(fraction<0.5) ? color : "white"} textAnchor={fraction<0.5 ? 'start' : 'end'}>{data?.valueFormatted} </text>
         <text x={graph_xs[1] + textMargin} y={textBaseline} className='rightValue' width={100}>{textRight}</text>
     </g>
-}
+} */
 
 export default function LinearGraphArea ({variables, width, height, graph_xs, color}) {
     const margin = {top : 10, bottom: 10, left : 80, right : 40}
