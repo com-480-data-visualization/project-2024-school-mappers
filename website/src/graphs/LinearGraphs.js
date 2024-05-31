@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import * as d3 from 'd3';
 
 function BasicBarGraph({variable, width, graph_xs, color, y, clicEvent}){
     const {
@@ -27,7 +26,7 @@ function BasicBarGraph({variable, width, graph_xs, color, y, clicEvent}){
     const label_x = graph_xs[0] + rect_width + ((fraction<0.5) ? textMargin :  -textMargin)
     
     return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(`${key} `)}>
-        <text x={0} y={textBaseline} className='lineTitle' >{title} :</text>
+        <text x={0} y={textBaseline} className='lineTitle' >{title}{title? " :" : ""}</text>
         <text x={graph_xs[0] -textMargin} y={textBaseline} className='leftValue' textAnchor='end' width={100}>{textLeft}</text>
         <rect x={graph_xs[0]} y={0.1*height} width={rect_width} height={0.8*height} fill={color}/>
         <text x={label_x} y={textBaseline} className='valueFormatted' fill={(fraction<0.5) ? color : "white"} textAnchor={fraction<0.5 ? 'start' : 'end'}>{data?.valueFormatted} </text>
@@ -50,15 +49,15 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
     if(!data){
         return null
     }
-    const gdpCapita = data["gdpCapita"]
-    const expenditure = data["expenditure"]
+    const gdpCapita = data["gdpCapita"];
+    const expenditure = data["expenditure"];
 
     if(!expenditure || !gdpCapita){
         return null;
     }
 
 
-    const value_gdp = gdpCapita.Total.value
+    const value_gdp = gdpCapita.Total.value;
     const fraction_gdp = (value_gdp - min.gdp) / (max.gdp-min.gdp);
     const rect_gdp =  fraction_gdp * (graph_xs[1] - graph_xs[0]);
 
@@ -81,8 +80,8 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
     }
 
     const lines = ["Primary", "Secondary", "Tertiary"].map((part, i) => {
-        const value = expenditure[part].value
-        const valueFormatted = expenditure[part].valueFormatted
+        const value = expenditure[part].value;
+        const valueFormatted = expenditure[part].valueFormatted;
         return <ExpenditureTypeGraph key={part} rect_gdp={rect_gdp} textLeft={part + " schools"} textRight="per student" value={value} valueFormatted={valueFormatted} y2={30*i} min={min.exp} max={max.exp}/>
     })
 
@@ -93,7 +92,7 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
 
 }
 
-function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEvent, types}){
+function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEvent, types, show_gender}){
     const {
         title,
         min,
@@ -105,7 +104,25 @@ function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEven
         textLeft
     } = variable;
 
+    let y2 = 0;
+    const lines = types.map((type, i) => {
+        if(!show_gender && type.is_gender){
+            return null;
+        }
+        const variable_updated = {
+            ...variable,
+            data: data[type.key],
+            title: i===0? title : "",
+            textLeft: type.title,
+            textRight: ""
+        }
+        y2 += 30;
+        return <BasicBarGraph key={type.title} variable={variable_updated} width={width} graph_xs={graph_xs} color={color} y={y2-30} clicEvent={clicEvent}/>
+    })
 
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(`${key} `)}>
+        {lines}
+    </g>
 }
 
 /*<defs>
@@ -124,6 +141,20 @@ export default function LinearGraphArea ({variables, width, height, graph_xs, co
             case 'expenditure':
                 used_height += 90
                 return <ExpenditureGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-90} clicEvent={clicEvent}/>;
+            case 'private_school':
+                const types = [
+                    {
+                        key:"Primary",
+                        title:"Primary school",
+                        is_gender: false
+                    },{
+                        key:"Secondary",
+                        title:"Secondary school",
+                        is_gender: false
+                    }
+                ]
+                used_height += 60
+                return <MultipleTypeGraph types={types} key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-60} clicEvent={clicEvent}/>;
             default:
                 break;
         }
@@ -135,102 +166,4 @@ export default function LinearGraphArea ({variables, width, height, graph_xs, co
             {graphs}
         </g>
     </svg>
-}
-
-export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
-    const variables = [
-        {
-            title: "Population",
-            type:"basic",
-            transform: d3.scaleLog([1e6, 1e10], [0,1]),
-            min: 0,
-            max: 1,
-            data: data["Population"],
-            key: "Population",
-            textLeft: "1 million",
-            textRight: "10 billion"
-        },{
-            title: "hdi",
-            type:"basic",
-            min: 0,
-            max: 1,
-            data: data["HDI"],
-            key: "HDI",
-            textLeft: "0",
-            textRight: "1"
-        },{
-            title: "HDI Rank", 
-            type:"basic",
-            min: 193,
-            max: 1,
-            data: data["HDI Rank"],
-            key: "HDI Rank",
-            textLeft: "193",
-            textRight: "1"
-        },{
-            title: "Gini index",
-            type:"basic",
-            min: 100,
-            max: 0,
-            data: data["Gini"],
-            key: "Gini",
-            textLeft: "inequal",
-            textRight: "equal"
-        },{
-            title: "GDP / Capita",
-            type:"basic",
-            min: 1000,
-            max: 100000,
-            data: data["GDP/Capita"].Total,
-            key: "GDP/Capita",
-            textLeft: "PPP$ ",
-            textRight: ""
-        },{
-            title: "Gov. Expenditure on education",
-            type:"expenditure",
-            min: {gdp: 1000, exp: 0},
-            max: {gdp: 100000, exp: 100},
-            data: {gdpCapita : data["GDP/Capita"], expenditure: data["Gov. Expenditure on education"]},
-            key: "Gov. Expenditure on education",
-            textLeft: "0%",
-            textRight: "100%"
-        },{
-            title: "Enrolment",
-            type:"basic",
-            min: 0,
-            max: 100,
-            data: data["Enrolment"].Total_secondary,
-            key: "Enrolment",
-            textLeft: "0 %",
-            textRight: "100 %"
-        },{
-            title: "Private School Enrolment",
-            type:"basic",
-            min: 0,
-            max: 100,
-            data: data["Private school enrolment"].Secondary,
-            key: "Private school enrolment",
-            textLeft: "0 %",
-            textRight: "100 %"
-        },{
-            title: "Dropout rate",
-            type:"basic",
-            min: 0,
-            max: 100,
-            data: data["Dropout"],
-            key: "Dropout",
-            textLeft: "0 %",
-            textRight: "100 %"
-        },{
-            title: "School life expectancy",
-            type:"basic",
-            min: 0,
-            max: 20,
-            data: data["School life expectancy"].Total,
-            key: "School life expectancy",
-            textLeft: "0 years",
-            textRight: "20 years"} 
-    ]
-
-  return <LinearGraphArea variables={variables} width={600} height={500} graph_xs={[350,525]} color={color} clicEvent={clicEvent}/>
 }

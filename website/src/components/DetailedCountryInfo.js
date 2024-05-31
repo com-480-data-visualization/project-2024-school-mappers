@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import IncomeBarChart from "../graphs/IncomeBarChart";
 import PisaStackedBarChart from "../graphs/PisaStackedBarChart";
-import { DetailedCountryLinearGraph } from "../graphs/LinearGraphs";
+import { DetailedCountryLinearGraph } from '../graphs/DetailedCountryLinearGraph';
 import * as d3 from 'd3';
 
 
@@ -28,7 +28,7 @@ const DetailedCountryInfo = forwardRef(
     Dropout: dropout,
   } = country;
 
-  const colorMap = d3.scaleOrdinal([0,4], ["red", "orange", "blue", "green", "yellow"]);
+  const colorMap = d3.scaleOrdinal([0,1,2,3,4], ["red", "orange", "blue", "green", "yellow"]);
   const color = colorMap(id);
 
     const transformedIncomeData = Object.keys(income).map((key) => ({
