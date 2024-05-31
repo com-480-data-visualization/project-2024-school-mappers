@@ -10,16 +10,23 @@ const DetailedSchoolInfo = forwardRef(
     };
 
     return (
-      <div ref={ref} className="big-card">
+      <div
+        ref={ref}
+        className={`big-card country-${school.schoolCountry
+          .toLowerCase()
+          .replace(/\s/g, "")}`}
+      >
         <div className="school-header">
-          <h2>
-            <strong>
-              {school.schoolName}, {school.city}
-            </strong>
-          </h2>
-          <button onClick={() => onSelectCountry(school.schoolCountry)}>
-            {school.schoolCountry}
-          </button>
+          <div>
+            <h2 onClick={() => onSelectCountry(school.schoolCountry)}>
+              <strong>
+                {school.schoolName}, {school.city} ({school.schoolCountry})
+              </strong>
+            </h2>
+            <p >
+              
+            </p>
+          </div>
 
           <div className="school-data">
             <h4>Size</h4>

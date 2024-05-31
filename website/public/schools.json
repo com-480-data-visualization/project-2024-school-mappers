@@ -1,6 +1,6 @@
 [
     {
-        "schoolCountry": "USA",
+        "schoolCountry": "United States",
         "city": "Scarsdale",
         "schoolName": "Greenacres Elementary School",
         "privatePublic": "Public",
@@ -26,7 +26,7 @@
         "music": "usaGreenAcresMusic.png"
     },
     {
-        "schoolCountry": "USA",
+        "schoolCountry": "United States",
         "city": "Fayetteville",
         "schoolName": "The New School",
         "privatePublic": "Private",
@@ -52,7 +52,7 @@
         "music": "usaNewSchoolMusic.png"
     },
     {
-        "schoolCountry": "USA",
+        "schoolCountry": "United States",
         "city": "San Perlita",
         "schoolName": "San Perlita ISD",
         "privatePublic": "Public",

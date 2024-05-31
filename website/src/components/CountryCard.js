@@ -1,4 +1,5 @@
 import React from "react";
+import IncomeBarChart from "../graphs/IncomeBarChart";
 
 function InfoRow({title, info}){
   let description;
@@ -36,7 +37,7 @@ const CountryCard = ({ country, onClick }) => {
   } = country;
 
   return (
-    <div className="country-card" onClick={onClick}>
+    <div className={`country-card country-${name.toLowerCase().replace(/\s/g, '')}`} onClick={onClick}>
       <h2>{name}</h2>
       <InfoRow title="Population" info={population} />
       <InfoRow title="GDP/Capita" info={gdpCapita?.Total} />
@@ -45,9 +46,6 @@ const CountryCard = ({ country, onClick }) => {
       <InfoRow title="HDI Rank" info={hdiRank} />
       <InfoRow title="HDI" info={hdi} />
       <InfoRow title="Gini index" info={gini} />
-      <div className="card">
-        <p>Income chart</p>
-      </div>
     </div>
   );
 };

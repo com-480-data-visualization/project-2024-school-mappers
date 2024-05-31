@@ -28,7 +28,7 @@ const DetailedCountryInfo = forwardRef(
     Dropout: dropout,
   } = country;
 
-  const colorMap = d3.scaleOrdinal([0,1,2,3,4], ["red", "orange", "blue", "green", "yellow"]);
+  const colorMap = d3.scaleOrdinal([0,1,2,3,4], ["#467f66", "#8bc2bf", "#c27355", "#edaf5a", "#7e57c2"]);
   const color = colorMap(id);
 
     const transformedIncomeData = Object.keys(income).map((key) => ({
@@ -46,12 +46,11 @@ const DetailedCountryInfo = forwardRef(
       })
     );
     return (
-      <div ref={ref} className="big-card">
+      <div ref={ref} className={`big-card detailed-country-info country-${name.toLowerCase().replace(/\s/g, '')}`}>
         <div className="card-content">
           <div className="info-column">
-            <h2>Details of {name}</h2>
+            <h2>School in {name}</h2>
             <div className="card">
-              <p>Map</p>
               <ul>
                 {schools.map((school, index) => (
                   <li
@@ -63,9 +62,6 @@ const DetailedCountryInfo = forwardRef(
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="card">
-              <p>PISA repartition</p>
             </div>
           </div>
 
