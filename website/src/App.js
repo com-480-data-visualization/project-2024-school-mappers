@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import Description from "./components/Description";
 import CountryCards from "./components/CountryCards";
 import DetailedCountryInfo from "./components/DetailedCountryInfo";
 import DetailedSchoolInfo from "./components/DetailedSchoolInfo";
@@ -95,7 +94,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Description />
       <CountryCards
         countries={countriesData}
         onSelectCountry={(country) => handleSelectCountry(country, true)}

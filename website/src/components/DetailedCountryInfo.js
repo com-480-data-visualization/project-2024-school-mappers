@@ -46,12 +46,11 @@ const DetailedCountryInfo = forwardRef(
       })
     );
     return (
-      <div ref={ref} className="big-card">
+      <div ref={ref} className={`big-card detailed-country-info country-${name.toLowerCase().replace(/\s/g, '')}`}>
         <div className="card-content">
           <div className="info-column">
-            <h2>Details of {name}</h2>
+            <h2>School in {name}</h2>
             <div className="card">
-              <p>Map</p>
               <ul>
                 {schools.map((school, index) => (
                   <li
@@ -63,9 +62,6 @@ const DetailedCountryInfo = forwardRef(
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="card">
-              <p>PISA repartition</p>
             </div>
           </div>
 

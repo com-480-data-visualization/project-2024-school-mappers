@@ -23,15 +23,12 @@ const ComparePictures = forwardRef(
       <div ref={ref} className="big-card">
         <h2>{imageLabels[pictureType]}</h2>
         <div className="card-content">
-          <div className="card big-picture">
-            <p>Big picture</p>
-            <img
+          <div className="school-pictures">
+          <img
               src={`${process.env.PUBLIC_URL}/images/${selectedSchool[pictureType]}`}
               alt={imageLabels[pictureType]}
-              className="big-picture"
+              className="school-picture"
             />
-          </div>
-          <div className="school-pictures">
             {otherSchools.map((school, index) => (
               <img
                 className="school-picture"
