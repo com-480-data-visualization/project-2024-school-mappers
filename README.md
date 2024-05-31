@@ -26,8 +26,9 @@
 - The website is done using the REACT framework. The code is in the website folder. The website is deployed using GitHub pages.
 - If changes were to be made on the website, the user will have to run 'npm run build' and 'npm run deploy' from the terminal to update the GitHub page. More specific indications can be found [here](https://github.com/gitname/react-gh-pages).
 - The **website** can be found [here](https://com-480-data-visualization.github.io/project-2024-school-mappers/).
-- The **process book** can be [here](processbook.pdf).
-- The **screencast** can be [here](screencast.mp4).
+- The **process book** can be [here](ProcessBook.pdf).
+- The **screencast** can be [here](screencast_.mp4).
+  *By mistake the wrong screencast was uploaded, the correct one was uploaded right after the deadline. If it would be considered as late policy, please evaluate the [wrong screencast](screencast.mp4) uploaded on time*
 
 ## Late policy
 
