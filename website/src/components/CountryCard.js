@@ -45,6 +45,9 @@ const CountryCard = ({ country, onClick }) => {
       <InfoRow title="HDI Rank" info={hdiRank} />
       <InfoRow title="HDI" info={hdi} />
       <InfoRow title="Gini index" info={gini} />
+      <div className="card">
+        <p>Income chart</p>
+      </div>
     </div>
   );
 };

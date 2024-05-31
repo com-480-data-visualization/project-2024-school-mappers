@@ -1,0 +1,13 @@
+country,city,school,privatePublic,segment,medianAnnualHouseholdIncomeUSD,annualTuitionUSD,coordinates,areaSqM
+USA,Scarsdale,Greenacres Elementary School,Public,High income,$238 000,$0,"41.010609122252184, -73.78434032582003",29 000
+USA,Fayetteville,The New School,Private,High income,$47 000,$11 500,"36.096689767296915, -94.15669707917243",28 000
+USA,San Perlita,San Perlita ISD,Public,Low Income,$16 000,$0,"26.495993588406883, -97.64047598652618",30 000
+Mexico,Monterrey,American School Foundaiton of Monterrey,Private,High income,$18 000,$12 955,"25.658934841502344, -100.44666464972447",212 000
+Mexico,Mexico city,Ucrania ,Public,Low Income,$16 800,$0,"19.292089488312023, -99.12127482205747",2 900
+Mexico,El Salitre,Telesecundaria Josefa Vergara,Public,Low Income,$11 000,$0,"20.6668484320558, -100.42769746935527",6 500
+Switzerland,Zurich,Inter-Community School Zurich,Private,High income,$128 000,$31 680,"47.33808772952021, 8.62162055144797",46 000
+Switzerland,Delemont,Middle school of Delémont,Public,Low Income,"$56,903",$0,"47.36574144016618, 7.350074218454501",10 700
+India,Dehradun,The Doon School,Private,High income,$2 075,$15 000,"30.33502814904515, 78.03220473439083",297 300
+India,Dehli,government sarvodaya bal vidyalaya,Public,Low Income,$1 500,$0,,
+Japan,Tokyo,Tokyo Metropolitan Hibiya High School,Public,High income,$44 000,$0,,
+Japan,Minami-Aizu,Minami-Aizu High School,Public,Low Income,$21 000,$0,,
