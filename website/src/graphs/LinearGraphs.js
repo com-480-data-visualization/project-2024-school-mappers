@@ -7,6 +7,7 @@ function BasicBarGraph({variable, width, graph_xs, color, y, clicEvent}){
         min,
         max,
         data,
+        key,
         transform,
         textRight,
         textLeft
@@ -40,6 +41,7 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
         min,
         max,
         data,
+        key,
         transform,
         textRight,
         textLeft
@@ -84,7 +86,7 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
         return <ExpenditureTypeGraph key={part} rect_gdp={rect_gdp} textLeft={part + " schools"} textRight="per student" value={value} valueFormatted={valueFormatted} y2={30*i} min={min.exp} max={max.exp}/>
     })
 
-    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(title)}>
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(key)}>
         <text x={0} y={0.65*30} className='lineTitle' >{title} :</text>
         {lines}
     </g>
@@ -129,6 +131,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 0,
             max: 1,
             data: data["Population"],
+            key: "Population",
             textLeft: "1 million",
             textRight: "10 billion"
         },{
@@ -137,14 +140,16 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 0,
             max: 1,
             data: data["HDI"],
+            key: "HDI",
             textLeft: "0",
             textRight: "1"
         },{
-            title: "HDI Rank",
+            title: "HDI Rank", 
             type:"basic",
             min: 193,
             max: 1,
             data: data["HDI Rank"],
+            key: "HDI Rank",
             textLeft: "193",
             textRight: "1"
         },{
@@ -153,6 +158,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 100,
             max: 0,
             data: data["Gini"],
+            key: "Gini",
             textLeft: "inequal",
             textRight: "equal"
         },{
@@ -161,6 +167,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 1000,
             max: 100000,
             data: data["GDP/Capita"].Total,
+            key: "GDP/Capita",
             textLeft: "PPP$ ",
             textRight: ""
         },{
@@ -169,6 +176,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: {gdp: 1000, exp: 0},
             max: {gdp: 100000, exp: 100},
             data: {gdpCapita : data["GDP/Capita"], expenditure: data["Gov. Expenditure on education"]},
+            key: "Gov. Expenditure on education",
             textLeft: "0%",
             textRight: "100%"
         },{
@@ -177,6 +185,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 0,
             max: 100,
             data: data["Enrolment"].Total_secondary,
+            key: "Enrolment",
             textLeft: "0 %",
             textRight: "100 %"
         },{
@@ -185,6 +194,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 0,
             max: 100,
             data: data["Private school enrolment"].Secondary,
+            key: "Private school enrolment",
             textLeft: "0 %",
             textRight: "100 %"
         },{
@@ -193,6 +203,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 0,
             max: 100,
             data: data["Dropout"],
+            key: "Dropout",
             textLeft: "0 %",
             textRight: "100 %"
         },{
@@ -201,6 +212,7 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             min: 0,
             max: 20,
             data: data["School life expectancy"].Total,
+            key: "School life expectancy",
             textLeft: "0 years",
             textRight: "20 years"} 
     ]
