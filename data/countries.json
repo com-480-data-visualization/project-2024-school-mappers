@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "name": "Switzerland",
         "PISA score": {
             "Total": {
@@ -242,6 +243,7 @@
         }
     },
     {
+        "id": 1,
         "name": "Japan",
         "PISA score": {
             "Total": {
@@ -370,20 +372,6 @@
                 "description": "Net enrolment rate, pre-primary, both sexes (%)",
                 "source": "UNESCO Institute for Statistics"
             },
-            "Female_primary": {
-                "value": 84.2306823730469,
-                "valueFormatted": "84%",
-                "year": 1999,
-                "description": "Net enrolment rate, pre-primary, female (%)",
-                "source": "UNESCO Institute for Statistics"
-            },
-            "Male_primary": {
-                "value": 82.6370010375977,
-                "valueFormatted": "83%",
-                "year": 1999,
-                "description": "Net enrolment rate, pre-primary, male (%)",
-                "source": "UNESCO Institute for Statistics"
-            },
             "Total_secondary": {
                 "value": 99.0426712036133,
                 "valueFormatted": "99%",
@@ -475,15 +463,10 @@
                 "source": "UNESCO Institute for Statistics"
             }
         },
-        "Dropout": {
-            "value": 0.0797699987888336,
-            "valueFormatted": "0.08%",
-            "year": 1994,
-            "description": "Cumulative drop-out rate to the last grade of lower secondary general education, both sexes (%)",
-            "source": "UNESCO Institute for Statistics"
-        }
+        "Dropout": null
     },
     {
+        "id": 2,
         "name": "Mexico",
         "PISA score": {
             "Total": {
@@ -748,6 +731,7 @@
         }
     },
     {
+        "id": 3,
         "name": "United States",
         "PISA score": {
             "Total": {
@@ -984,6 +968,7 @@
         "Dropout": null
     },
     {
+        "id": 4,
         "name": "India",
         "PISA score": {},
         "PISA repartition": {},
