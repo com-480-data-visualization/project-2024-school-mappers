@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import * as d3 from 'd3';
 
-function BasicBarGraph({variable, width, graph_xs, color, y}){
+function BasicBarGraph({variable, width, graph_xs, color, y, clicEvent}){
     const {
         title,
         min,
@@ -25,7 +25,7 @@ function BasicBarGraph({variable, width, graph_xs, color, y}){
     const textBaseline = 0.65*height;
     const label_x = graph_xs[0] + rect_width + ((fraction<0.5) ? textMargin :  -textMargin)
     
-    return <g transform={`translate(0, ${y})`}>
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(title)}>
         <text x={0} y={textBaseline} className='lineTitle' >{title} :</text>
         <text x={graph_xs[0] -textMargin} y={textBaseline} className='leftValue' textAnchor='end' width={100}>{textLeft}</text>
         <rect x={graph_xs[0]} y={0.1*height} width={rect_width} height={0.8*height} fill={color}/>
@@ -34,7 +34,7 @@ function BasicBarGraph({variable, width, graph_xs, color, y}){
     </g>
 }
 
-function ExpenditureGraph({variable, width, graph_xs, color, y, image}){
+function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent}){
     const {
         title,
         min,
@@ -81,10 +81,10 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image}){
     const lines = ["Primary", "Secondary", "Tertiary"].map((part, i) => {
         const value = expenditure[part].value
         const valueFormatted = expenditure[part].valueFormatted
-        return <ExpenditureTypeGraph key={part} rect_gdp={rect_gdp} textLeft={part} textRight="per student" value={value} valueFormatted={valueFormatted} y2={30*i} min={min.exp} max={max.exp}/>
+        return <ExpenditureTypeGraph key={part} rect_gdp={rect_gdp} textLeft={part + " schools"} textRight="per student" value={value} valueFormatted={valueFormatted} y2={30*i} min={min.exp} max={max.exp}/>
     })
 
-    return <g transform={`translate(0, ${y})`}>
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(title)}>
         <text x={0} y={0.65*30} className='lineTitle' >{title} :</text>
         {lines}
     </g>
@@ -97,16 +97,16 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image}){
         </pattern>
     </defs>*/
 
-export default function LinearGraphArea ({variables, width, height, graph_xs, color}) {
+export default function LinearGraphArea ({variables, width, height, graph_xs, color, clicEvent}) {
     let used_height=0
     const graphs = variables.map((variable, i) => {
         switch (variable.type){
             case 'basic':
                 used_height += 30
-                return <BasicBarGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-30}/>;
+                return <BasicBarGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-30} clicEvent={clicEvent}/>;
             case 'expenditure':
                 used_height += 90
-                return <ExpenditureGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-90}/>;
+                return <ExpenditureGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-90} clicEvent={clicEvent}/>;
             default:
                 break;
         }
@@ -120,7 +120,7 @@ export default function LinearGraphArea ({variables, width, height, graph_xs, co
     </svg>
 }
 
-export function DetailedCountryLinearGraph ({data, color}) {
+export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
     const variables = [
         {
             title: "Population",
@@ -205,5 +205,5 @@ export function DetailedCountryLinearGraph ({data, color}) {
             textRight: "20 years"} 
     ]
 
-  return <LinearGraphArea variables={variables} width={500} height={300} graph_xs={[250,400]} color={color}/>
+  return <LinearGraphArea variables={variables} width={500} height={300} graph_xs={[250,400]} color={color} clicEvent={clicEvent}/>
 }

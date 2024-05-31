@@ -28,7 +28,7 @@ const DetailedCountryInfo = forwardRef(
     Dropout: dropout,
   } = country;
 
-  const colorMap = d3.scaleOrdinal([0,4], ["red", "white", "blue", "green", "yellow"]);
+  const colorMap = d3.scaleOrdinal([0,4], ["red", "orange", "blue", "green", "yellow"]);
   const color = colorMap(id);
 
     const transformedIncomeData = Object.keys(income).map((key) => ({
@@ -74,7 +74,7 @@ const DetailedCountryInfo = forwardRef(
               <p onClick={() => onSelectVariable("dropout")}>
                 <b>Dropout</b>
               </p>
-              <DetailedCountryLinearGraph data={country} color="red"/>
+              <DetailedCountryLinearGraph data={country} color={color} clicEvent={onSelectVariable}/>
             </div>
           </div>
         </div>
