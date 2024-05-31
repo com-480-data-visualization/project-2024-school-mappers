@@ -143,3 +143,10 @@
   height: auto;
 }
 
+
+
+/* Country Graphs */
+.leftValue, .rightValue{
+  opacity: 0.5;
+  font-size: 15px;
+}
