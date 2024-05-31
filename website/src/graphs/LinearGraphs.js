@@ -25,7 +25,7 @@ function BasicBarGraph({variable, width, graph_xs, color, y, clicEvent}){
     const textBaseline = 0.65*height;
     const label_x = graph_xs[0] + rect_width + ((fraction<0.5) ? textMargin :  -textMargin)
     
-    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(`${key} `)}>
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(title)}>
         <text x={0} y={textBaseline} className='lineTitle' >{title}{title? " :" : ""}</text>
         <text x={graph_xs[0] -textMargin} y={textBaseline} className='leftValue' textAnchor='end' width={100}>{textLeft}</text>
         <rect x={graph_xs[0]} y={0.1*height} width={rect_width} height={0.8*height} fill={color}/>
@@ -85,7 +85,7 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
         return <ExpenditureTypeGraph key={part} rect_gdp={rect_gdp} textLeft={part + " schools"} textRight="per student" value={value} valueFormatted={valueFormatted} y2={30*i} min={min.exp} max={max.exp}/>
     })
 
-    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(`${key} `)}>
+    return <g transform={`translate(0, ${y})`} onClick={() => clicEvent(title)}>
         <text x={0} y={0.65*30} className='lineTitle' >{title} :</text>
         {lines}
     </g>
@@ -160,10 +160,47 @@ export default function LinearGraphArea ({variables, width, height, graph_xs, co
         }
     })
     return <svg width={width} height={height}>
-        <line x1={graph_xs[0]} x2={graph_xs[0]} y1={0} y2={height} stroke={color}/>
-        <line x1={graph_xs[1]} x2={graph_xs[1]} y1={0} y2={height} stroke={color}/>
         <g>
             {graphs}
         </g>
+        <line x1={graph_xs[0]} x2={graph_xs[0]} y1={0} y2={height} stroke={color}/>
+        <line x1={graph_xs[1]} x2={graph_xs[1]} y1={0} y2={height} stroke={color}/>
+    </svg>
+}
+
+export function LinearGraphAreaWithColor ({variables, width, height, graph_xs, clicEvent}) {
+    let used_height=0
+    const graphs = variables.map((variable, i) => {
+        switch (variable.type){
+            case 'basic':
+                used_height += 30
+                return <BasicBarGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={variable.color} y={used_height-30} clicEvent={clicEvent}/>;
+            case 'expenditure':
+                used_height += 90
+                return <ExpenditureGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={variable.color} y={used_height-90} clicEvent={clicEvent}/>;
+            case 'private_school':
+                const types = [
+                    {
+                        key:"Primary",
+                        title:"Primary school",
+                        is_gender: false
+                    },{
+                        key:"Secondary",
+                        title:"Secondary school",
+                        is_gender: false
+                    }
+                ]
+                used_height += 60
+                return <MultipleTypeGraph types={types} key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={variable.color} y={used_height-60} clicEvent={clicEvent}/>;
+            default:
+                break;
+        }
+    })
+    return <svg width={width} height={height}>
+        <g>
+            {graphs}
+        </g>
+        <line x1={graph_xs[0]} x2={graph_xs[0]} y1={0} y2={height} stroke="black"/>
+        <line x1={graph_xs[1]} x2={graph_xs[1]} y1={0} y2={height} stroke="black"/>
     </svg>
 }
