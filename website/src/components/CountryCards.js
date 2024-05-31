@@ -2,6 +2,7 @@ import React from "react";
 import CountryCard from "./CountryCard";
 
 const CountryCards = ({ countries, onSelectCountry }) => {
+
   return (
     <div className="country-cards">
       {countries.map((country) => (
