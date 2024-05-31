@@ -93,6 +93,21 @@ function ExpenditureGraph({variable, width, graph_xs, color, y, image, clicEvent
 
 }
 
+function MultipleTypeGraph({variable, width, graph_xs, color, y, image, clicEvent, types}){
+    const {
+        title,
+        min,
+        max,
+        data,
+        key,
+        transform,
+        textRight,
+        textLeft
+    } = variable;
+
+
+}
+
 /*<defs>
         <pattern id={image} x="0" y="0" width={0.8*height} height={0.8*height} patternUnits="userSpaceOnUse">
             <image x="0" y="0" width={0.8*height} height={0.8*height} href={`${process.env.PUBLIC_URL}/svg_images/${image}.svg`}/>
@@ -217,5 +232,5 @@ export function DetailedCountryLinearGraph ({data, color, clicEvent}) {
             textRight: "20 years"} 
     ]
 
-  return <LinearGraphArea variables={variables} width={500} height={300} graph_xs={[250,400]} color={color} clicEvent={clicEvent}/>
+  return <LinearGraphArea variables={variables} width={600} height={500} graph_xs={[350,525]} color={color} clicEvent={clicEvent}/>
 }
