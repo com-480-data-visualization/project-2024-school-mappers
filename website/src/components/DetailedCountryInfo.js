@@ -70,12 +70,7 @@ const DetailedCountryInfo = forwardRef(
           </div>
 
           <div className="card schools-column">
-            <div>
-              <p onClick={() => onSelectVariable("dropout")}>
-                <b>Dropout</b>
-              </p>
-              <DetailedCountryLinearGraph data={country} color={color} clicEvent={onSelectVariable}/>
-            </div>
+            <DetailedCountryLinearGraph data={country} color={color} clicEvent={onSelectVariable}/>
           </div>
         </div>
       </div>
