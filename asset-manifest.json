@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-2024-school-mappers/static/css/main.882cbc1f.css",
-    "main.js": "/project-2024-school-mappers/static/js/main.21a9d04a.js",
+    "main.css": "/project-2024-school-mappers/static/css/main.ecde724b.css",
+    "main.js": "/project-2024-school-mappers/static/js/main.7fd011d3.js",
     "static/js/453.8851efe8.chunk.js": "/project-2024-school-mappers/static/js/453.8851efe8.chunk.js",
     "index.html": "/project-2024-school-mappers/index.html",
-    "main.882cbc1f.css.map": "/project-2024-school-mappers/static/css/main.882cbc1f.css.map",
-    "main.21a9d04a.js.map": "/project-2024-school-mappers/static/js/main.21a9d04a.js.map",
+    "main.ecde724b.css.map": "/project-2024-school-mappers/static/css/main.ecde724b.css.map",
+    "main.7fd011d3.js.map": "/project-2024-school-mappers/static/js/main.7fd011d3.js.map",
     "453.8851efe8.chunk.js.map": "/project-2024-school-mappers/static/js/453.8851efe8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.882cbc1f.css",
-    "static/js/main.21a9d04a.js"
+    "static/css/main.ecde724b.css",
+    "static/js/main.7fd011d3.js"
   ]
 }
