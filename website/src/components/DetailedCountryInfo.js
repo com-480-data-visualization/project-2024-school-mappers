@@ -1,12 +1,13 @@
 import React, { forwardRef } from "react";
 import IncomeBarChart from "../graphs/IncomeBarChart";
 import PisaStackedBarChart from "../graphs/PisaStackedBarChart";
-import LinearGraphArea from "../graphs/LinearGraphs";
+import { DetailedCountryLinearGraph } from "../graphs/LinearGraphs";
 
 const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVariable }, ref) => {
   if (!country) return null;
 
   const {
+    id,
     name,
     "PISA score": pisaScore,
     "PISA repartition": pisaRepartition,
@@ -18,7 +19,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
     Income: income,
     Gini: gini,
     Enrolment: enrolment,
-    "Private School Enrolment": privateSchoolEnrolment,
+    "Private school enrolment": privateSchoolEnrolment,
     "School life expectancy": schoolLifeExpectancy,
     "Gov. Expenditure on education": govExpenditure,
     Dropout: dropout,
@@ -86,71 +87,6 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
     })
   );
 
-  const variables = [
-    {title: "population",
-    min: 1e6,
-    max: 1e10,
-    value: population.value,
-    valueFormatted: population.valueFormatted,
-    textLeft: "1 million",
-    textRight: "10 billion"},
-    {title: "hdi",
-    min: 0,
-    max: 1,
-    value: hdi.value,
-    valueFormatted: hdi.valueFormatted,
-    textLeft: "0",
-    textRight: "1"},
-    {title: "hdiRank",
-    min: 193,
-    max: 1,
-    value: hdiRank.value,
-    valueFormatted: hdiRank.valueFormatted,
-    textLeft: "193",
-    textRight: "1"},
-    {title: "Gini index",
-    min: 100,
-    max: 0,
-    value: gini.value,
-    valueFormatted: gini.valueFormatted,
-    textLeft: "inequal",
-    textRight: "equal"},
-    {title: "GDP / Capita",
-    min: 1000,
-    max: 100000,
-    value: gdpCapita.value,
-    valueFormatted: gdpCapita.valueFormatted,
-    textLeft: "PPP$ ",
-    textRight: ""},
-    {title: "Enrolment",
-    min: 0,
-    max: 100,
-    value: enrolment.value,
-    valueFormatted: enrolment.valueFormatted,
-    textLeft: "0 %",
-    textRight: "100 %"}, /*
-    {title: "Private School Enrolment",
-    min: 0,
-    max: 100,
-    value: privateSchoolEnrolment.value,
-    valueFormatted: privateSchoolEnrolment.valueFormatted,
-    textLeft: "0 %",
-    textRight: "100 %"},*/
-    {title: "Dropout rate",
-    min: 0,
-    max: 100,
-    value: dropout.value,
-    valueFormatted: dropout.valueFormatted,
-    textLeft: "0 %",
-    textRight: "100 %"},
-    {title: "schoolLifeExpectancy",
-    min: 0,
-    max: 20,
-    value: schoolLifeExpectancy.value,
-    valueFormatted: schoolLifeExpectancy.valueFormatted,
-    textLeft: "0 years",
-    textRight: "20 years"} 
-  ]
   return (
     <div ref={ref} className="big-card">
       <div className="card-content">
@@ -175,7 +111,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
         </div>
 
         <div className="card schools-column">
-          <LinearGraphArea variables={variables} width={500} height={300} graph_xs={[250,400]} color="red"/>
+          <DetailedCountryLinearGraph data={country} color="red"/>
 
           <div>
             <p onClick={() => onSelectVariable('dropout')}><b>Dropout</b></p>
