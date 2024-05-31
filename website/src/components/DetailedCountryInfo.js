@@ -1,11 +1,13 @@
 import React, { forwardRef } from "react";
 import IncomeBarChart from "../graphs/IncomeBarChart";
 import PisaStackedBarChart from "../graphs/PisaStackedBarChart";
+import { DetailedCountryLinearGraph } from "../graphs/LinearGraphs";
 
 const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVariable }, ref) => {
   if (!country) return null;
 
   const {
+    id,
     name,
     "PISA score": pisaScore,
     "PISA repartition": pisaRepartition,
@@ -17,7 +19,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
     Income: income,
     Gini: gini,
     Enrolment: enrolment,
-    "Private School Enrolment": privateSchoolEnrolment,
+    "Private school enrolment": privateSchoolEnrolment,
     "School life expectancy": schoolLifeExpectancy,
     "Gov. Expenditure on education": govExpenditure,
     Dropout: dropout,
@@ -84,6 +86,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
       source: pisaRepartition[key].source,
     })
   );
+
   return (
     <div ref={ref} className="big-card">
       <div className="card-content">
@@ -108,27 +111,7 @@ const DetailedCountryInfo = forwardRef(({ country, onSelectSchool, onSelectVaria
         </div>
 
         <div className="card schools-column">
-          <div>
-            <p>
-              <strong>Population:</strong> {population?.value?.toLocaleString()}
-            </p>
-            <p>
-              <strong>GDP/Capita:</strong> $
-              {gdpCapita?.Total?.value?.toLocaleString()}
-            </p>
-            <p>
-              <strong>PISA Score:</strong> {pisaScore?.Total?.value}
-            </p>
-            <p>
-              <strong>HDI Rank:</strong> {hdiRank?.value}
-            </p>
-            <p>
-              <strong>HDI:</strong> {hdi?.value}
-            </p>
-            <p>
-              <strong>Gini:</strong> {gini?.value}
-            </p>
-          </div>
+          <DetailedCountryLinearGraph data={country} color="red"/>
 
           <div>
             <p onClick={() => onSelectVariable('dropout')}><b>Dropout</b></p>
