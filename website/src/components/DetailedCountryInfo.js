@@ -28,7 +28,7 @@ const DetailedCountryInfo = forwardRef(
     Dropout: dropout,
   } = country;
 
-  const colorMap = d3.scaleOrdinal([0,1,2,3,4], ["red", "orange", "blue", "green", "yellow"]);
+  const colorMap = d3.scaleOrdinal([0,1,2,3,4], ["#467f66", "#8bc2bf", "#c27355", "#edaf5a", "#7e57c2"]);
   const color = colorMap(id);
 
     const transformedIncomeData = Object.keys(income).map((key) => ({

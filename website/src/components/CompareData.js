@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import * as d3 from 'd3';
 import { LinearGraphAreaWithColor } from "../graphs/LinearGraphs";
 
-const CompareData = forwardRef(({ countries, variable }, ref) => {
+const CompareData = forwardRef(({ countries, variable, onSelectCountry }, ref) => {
 
   const variables_definition = {
     "Population": {
@@ -101,7 +101,7 @@ const CompareData = forwardRef(({ countries, variable }, ref) => {
      "School life expectancy": (data) => data["School life expectancy"].Total
   };
 
-  const colorMap = d3.scaleOrdinal([0,1,2,3,4], ["red", "orange", "blue", "green", "yellow"]);
+  const colorMap = d3.scaleOrdinal([0,1,2,3,4], ["#467f66", "#8bc2bf", "#c27355", "#edaf5a", "#7e57c2"]);
   
   const variables = countries.map((country,i) =>{
     return {...variables_definition[variable] , data: data_funcs[variable](country), color:colorMap(country.id), title:country.name};
@@ -113,7 +113,7 @@ const CompareData = forwardRef(({ countries, variable }, ref) => {
   return (
   <div ref={ref} className="big-card">
     <h2>{variable}</h2>
-    <LinearGraphAreaWithColor variables={variables} width={1000} height="200" graph_xs={[200, 900]} />
+    <LinearGraphAreaWithColor variables={variables} width={1000} height="200" graph_xs={[200, 900]} clicEvent={onSelectCountry}/>
   </div>
   );
 });
