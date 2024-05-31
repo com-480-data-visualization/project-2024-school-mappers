@@ -82,9 +82,6 @@ export default function LinearGraphArea ({variables, width, height, graph_xs, co
             case 'basic':
                 used_height += 30
                 return <BasicBarGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-30}/>;
-            case 'people':
-                used_height += 30
-                return <ImageBarGraph key={variable.title} variable={variable} width={width} graph_xs={graph_xs} color={color} y={used_height-30} image="people-group"/>;
             default:
                 break;
         }
@@ -102,7 +99,7 @@ export function DetailedCountryLinearGraph ({data, color}) {
     const variables = [
         {
             title: "Population",
-            type:"people",
+            type:"basic",
             transform: d3.scaleLog([1e6, 1e10], [0,1]),
             min: 0,
             max: 1,
